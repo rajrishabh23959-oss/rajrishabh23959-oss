@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 130" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="achBgLt" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="50%" stop-color="#F8FAFC" />
+      <stop offset="100%" stop-color="#F1F5F9" />
+    </linearGradient>
+
+    <!-- Card Background -->
+    <linearGradient id="tileBgLt" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#F8FAFC" />
+    </linearGradient>
+
+    <!-- Accents -->
+    <linearGradient id="goldGleamLt" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D97706" />
+      <stop offset="100%" stop-color="#B45309" />
+    </linearGradient>
+    <linearGradient id="tealGleamLt" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0F766E" />
+      <stop offset="100%" stop-color="#0D9488" />
+    </linearGradient>
+    <linearGradient id="cyanGleamLt" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284C7" />
+      <stop offset="100%" stop-color="#0369A1" />
+    </linearGradient>
+    <linearGradient id="greenGleamLt" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .ach-label-lt { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace; font-size: 8.5px; font-weight: 700; fill: #64748B; letter-spacing: 0.8px; }
+    .ach-val-lt { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 13.5px; font-weight: 900; letter-spacing: 0.2px; }
+    .ach-sub-lt { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 8.5px; font-weight: 600; fill: #475569; }
+    .ach-tag-lt { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace; font-size: 8px; font-weight: 700; }
+  </style>
+
+  <!-- Container Base -->
+  <rect width="900" height="130" rx="12" fill="url(#achBgLt)" stroke="#CBD5E1" stroke-width="1.2" />
+
+  <!-- TILE 1: JEE ADVANCED -->
+  <g transform="translate(14, 12)">
+    <rect width="164" height="106" rx="8" fill="url(#tileBgLt)" stroke="#CBD5E1" stroke-width="1" />
+    <rect x="10" y="10" width="60" height="15" rx="7.5" fill="#FFFBEB" stroke="#D97706" stroke-width="0.8" />
+    <text x="40" y="21" text-anchor="middle" class="ach-tag-lt" fill="#B45309">NATIONAL</text>
+
+    <text x="10" y="44" class="ach-label-lt">ENGINEERING RANK</text>
+    <text x="10" y="66" class="ach-val-lt" fill="url(#goldGleamLt)">JEE ADVANCED</text>
+    <text x="10" y="84" class="ach-sub-lt">Qualified 2X</text>
+    <text x="10" y="97" class="ach-sub-lt" fill="#64748B">Years 2024 &amp; 2025</text>
+  </g>
+
+  <!-- TILE 2: 100/100 MATHS -->
+  <g transform="translate(190, 12)">
+    <rect width="164" height="106" rx="8" fill="url(#tileBgLt)" stroke="#CBD5E1" stroke-width="1" />
+    <rect x="10" y="10" width="60" height="15" rx="7.5" fill="#F0FDFA" stroke="#0D9488" stroke-width="0.8" />
+    <text x="40" y="21" text-anchor="middle" class="ach-tag-lt" fill="#0F766E">PERFECT</text>
+
+    <text x="10" y="44" class="ach-label-lt">QUANTITATIVE RIGOR</text>
+    <text x="10" y="66" class="ach-val-lt" fill="url(#tealGleamLt)">100 / 100</text>
+    <text x="10" y="84" class="ach-sub-lt">Intermediate Maths</text>
+    <text x="10" y="97" class="ach-sub-lt" fill="#64748B">Top Percentile</text>
+  </g>
+
+  <!-- TILE 3: SGPA 9.25 -->
+  <g transform="translate(366, 12)">
+    <rect width="164" height="106" rx="8" fill="url(#tileBgLt)" stroke="#CBD5E1" stroke-width="1" />
+    <rect x="10" y="10" width="60" height="15" rx="7.5" fill="#F0F9FF" stroke="#0284C7" stroke-width="0.8" />
+    <text x="40" y="21" text-anchor="middle" class="ach-tag-lt" fill="#0369A1">HONORS</text>
+
+    <text x="10" y="44" class="ach-label-lt">PONDICHERRY UNIV</text>
+    <text x="10" y="66" class="ach-val-lt" fill="url(#cyanGleamLt)">SGPA 9.25 / 10</text>
+    <text x="10" y="84" class="ach-sub-lt">Sem 1: 9.23</text>
+    <text x="10" y="97" class="ach-sub-lt" fill="#64748B">Sem 2: 9.25 (CSBS)</text>
+  </g>
+
+  <!-- TILE 4: PRAGYAN NIT TRICHY -->
+  <g transform="translate(542, 12)">
+    <rect width="164" height="106" rx="8" fill="url(#tileBgLt)" stroke="#CBD5E1" stroke-width="1" />
+    <rect x="10" y="10" width="68" height="15" rx="7.5" fill="#EEF2FF" stroke="#6366F1" stroke-width="0.8" />
+    <text x="44" y="21" text-anchor="middle" class="ach-tag-lt" fill="#4F46E5">TECH SUMMIT</text>
+
+    <text x="10" y="44" class="ach-label-lt">NIT TRICHY</text>
+    <text x="10" y="66" class="ach-val-lt" fill="#4F46E5">PRAGYAN</text>
+    <text x="10" y="84" class="ach-sub-lt">Technical Participant</text>
+    <text x="10" y="97" class="ach-sub-lt" fill="#64748B">Premier Student Fest</text>
+  </g>
+
+  <!-- TILE 5: RENOPAY LIVE ON RENDER -->
+  <g transform="translate(718, 12)">
+    <rect width="168" height="106" rx="8" fill="url(#tileBgLt)" stroke="#CBD5E1" stroke-width="1" />
+    <rect x="10" y="10" width="56" height="15" rx="7.5" fill="#ECFDF5" stroke="#10B981" stroke-width="0.8" />
+    <circle cx="20" cy="17.5" r="3" fill="#059669">
+      <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text x="42" y="21" text-anchor="middle" class="ach-tag-lt" fill="#047857">PROD</text>
+
+    <text x="10" y="44" class="ach-label-lt">FULL-STACK FINTECH</text>
+    <text x="10" y="66" class="ach-val-lt" fill="url(#greenGleamLt)">RENOPAY</text>
+    <text x="10" y="84" class="ach-sub-lt">Live on Render</text>
+    <text x="10" y="97" class="ach-sub-lt" fill="#64748B">Docker + Nginx Rails</text>
+  </g>
+</svg>

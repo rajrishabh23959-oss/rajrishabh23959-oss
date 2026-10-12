@@ -234,6 +234,16 @@
 
 ## 🎖 Quantitative Rigor &amp; Benchmarks
 
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/achievements-strip-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/achievements-strip-light.svg">
+  <img alt="Verified Honors &amp; Achievements Strip" src="assets/achievements-strip-dark.svg" width="100%">
+</picture>
+</div>
+
+<br/>
+
 <table>
   <tr>
     <td width="33%" align="center">
@@ -352,11 +362,6 @@
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rajrishabh23959-oss/rajrishabh23959-oss/output/github-contribution-grid-snake.svg">
   <img alt="Activity Snake" src="assets/snake-placeholder.svg" width="100%">
 </picture>
-
-<br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=rajrishabh23959-oss&amp;theme=flat&amp;no-frame=true&amp;row=1&amp;column=6&amp;margin_w=10" alt="GitHub Trophies" />
-
 </div>
 
 <div align="center">

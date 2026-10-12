@@ -1,108 +1,164 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 130" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 170" width="100%" height="100%">
   <defs>
-    <!-- Background Gradient -->
-    <linearGradient id="achBgDark" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#060914" />
-      <stop offset="50%" stop-color="#0A1224" />
-      <stop offset="100%" stop-color="#050812" />
+    <!-- Background Card Canvas -->
+    <linearGradient id="achCardDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090E1A" />
+      <stop offset="100%" stop-color="#0D1527" />
     </linearGradient>
 
-    <!-- Card Background -->
-    <linearGradient id="tileBgDark" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#0E192E" />
-      <stop offset="100%" stop-color="#070D1A" />
-    </linearGradient>
-
-    <!-- Accents -->
-    <linearGradient id="goldGleam" x1="0%" y1="0%" x2="100%" y2="0%">
+    <!-- Shimmering Border Gradients -->
+    <linearGradient id="glowGold" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#F59E0B" />
       <stop offset="100%" stop-color="#FCD34D" />
     </linearGradient>
-    <linearGradient id="tealGleam" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0284C7" />
+    <linearGradient id="glowTeal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D9488" />
       <stop offset="100%" stop-color="#2DD4BF" />
     </linearGradient>
-    <linearGradient id="cyanGleam" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#38BDF8" />
-      <stop offset="100%" stop-color="#818CF8" />
+    <linearGradient id="glowCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7" />
+      <stop offset="100%" stop-color="#38BDF8" />
     </linearGradient>
-    <linearGradient id="greenGleam" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#10B981" />
+    <linearGradient id="glowPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7C3AED" />
+      <stop offset="100%" stop-color="#C084FC" />
+    </linearGradient>
+    <linearGradient id="glowEmerald" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#059669" />
       <stop offset="100%" stop-color="#34D399" />
     </linearGradient>
   </defs>
 
   <style>
-    .ach-label { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace; font-size: 8.5px; font-weight: 700; fill: #64748B; letter-spacing: 0.8px; }
-    .ach-val { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 13.5px; font-weight: 900; letter-spacing: 0.2px; }
-    .ach-sub { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 8.5px; font-weight: 600; fill: #94A3B8; }
-    .ach-tag { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace; font-size: 8px; font-weight: 700; }
+    .track-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'SF Mono', monospace; font-size: 10px; fill: #64748B; font-weight: 700; letter-spacing: 0.8px; }
+    .card-head { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 14.5px; fill: #F8FAFC; font-weight: 800; }
+    .card-metric { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'SF Mono', monospace; font-size: 13px; font-weight: 800; letter-spacing: 0.2px; }
+    .card-detail { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 11px; fill: #94A3B8; }
+    .badge-label { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'SF Mono', monospace; font-size: 9px; font-weight: 700; letter-spacing: 0.4px; }
   </style>
 
-  <!-- Container Base -->
-  <rect width="900" height="130" rx="12" fill="url(#achBgDark)" stroke="#1E293B" stroke-width="1.2" />
+  <!-- ==================== CARD 1: JEE ADVANCED (2X) ==================== -->
+  <g transform="translate(10, 8)">
+    <rect width="168" height="154" rx="10" fill="url(#achCardDark)" stroke="#1E293B" stroke-width="1.2" />
+    <rect width="168" height="154" rx="10" fill="none" stroke="#F59E0B" stroke-opacity="0.3" stroke-width="1">
+      <animate attributeName="stroke-opacity" values="0.15;0.5;0.15" dur="3s" repeatCount="indefinite" />
+    </rect>
 
-  <!-- TILE 1: JEE ADVANCED -->
-  <g transform="translate(14, 12)">
-    <rect width="164" height="106" rx="8" fill="url(#tileBgDark)" stroke="#1E293B" stroke-width="1" />
-    <rect x="10" y="10" width="60" height="15" rx="7.5" fill="#78350F" fill-opacity="0.4" stroke="#F59E0B" stroke-width="0.8" />
-    <text x="40" y="21" text-anchor="middle" class="ach-tag" fill="#FCD34D">NATIONAL</text>
+    <text x="14" y="24" class="track-title">HONOR 01</text>
+    <rect x="76" y="13" width="78" height="17" rx="8.5" fill="#78350F" fill-opacity="0.45" stroke="#F59E0B" stroke-width="0.8" />
+    <text x="83" y="25" class="badge-label" fill="#FCD34D">QUALIFIED 2X</text>
 
-    <text x="10" y="44" class="ach-label">ENGINEERING RANK</text>
-    <text x="10" y="66" class="ach-val" fill="url(#goldGleam)">JEE ADVANCED</text>
-    <text x="10" y="84" class="ach-sub">Qualified 2X</text>
-    <text x="10" y="97" class="ach-sub" fill="#64748B">Years 2024 &amp; 2025</text>
+    <text x="14" y="52" class="card-head">JEE Advanced</text>
+    <text x="14" y="69" class="card-detail">Qualifier 2024 &amp; 2025</text>
+
+    <text x="14" y="98" class="track-title">NATIONAL BENCHMARK</text>
+    <text x="14" y="117" class="card-metric" fill="#F59E0B">2x Qualifier</text>
+
+    <!-- Progress bar -->
+    <rect x="14" y="125" width="140" height="5" rx="2.5" fill="#1E293B" />
+    <rect x="14" y="125" width="136" height="5" rx="2.5" fill="url(#glowGold)">
+      <animate attributeName="width" values="20;136" dur="1.6s" fill="freeze" />
+    </rect>
+    <text x="14" y="146" class="track-title" fill="#FCD34D">PREMIER PERCENTILE</text>
   </g>
 
-  <!-- TILE 2: 100/100 MATHS -->
-  <g transform="translate(190, 12)">
-    <rect width="164" height="106" rx="8" fill="url(#tileBgDark)" stroke="#1E293B" stroke-width="1" />
-    <rect x="10" y="10" width="60" height="15" rx="7.5" fill="#064E3B" fill-opacity="0.4" stroke="#2DD4BF" stroke-width="0.8" />
-    <text x="40" y="21" text-anchor="middle" class="ach-tag" fill="#2DD4BF">PERFECT</text>
+  <!-- ==================== CARD 2: 100/100 MATHS ==================== -->
+  <g transform="translate(188, 8)">
+    <rect width="168" height="154" rx="10" fill="url(#achCardDark)" stroke="#1E293B" stroke-width="1.2" />
+    <rect width="168" height="154" rx="10" fill="none" stroke="#2DD4BF" stroke-opacity="0.3" stroke-width="1">
+      <animate attributeName="stroke-opacity" values="0.15;0.5;0.15" dur="3s" begin="0.6s" repeatCount="indefinite" />
+    </rect>
 
-    <text x="10" y="44" class="ach-label">QUANTITATIVE RIGOR</text>
-    <text x="10" y="66" class="ach-val" fill="url(#tealGleam)">100 / 100</text>
-    <text x="10" y="84" class="ach-sub">Intermediate Maths</text>
-    <text x="10" y="97" class="ach-sub" fill="#64748B">Top Percentile</text>
+    <text x="14" y="24" class="track-title">HONOR 02</text>
+    <rect x="78" y="13" width="76" height="17" rx="8.5" fill="#042F2E" fill-opacity="0.6" stroke="#2DD4BF" stroke-width="0.8" />
+    <text x="85" y="25" class="badge-label" fill="#2DD4BF">PERFECT 100</text>
+
+    <text x="14" y="52" class="card-head">Mathematics</text>
+    <text x="14" y="69" class="card-detail">100/100 Raw Score</text>
+
+    <text x="14" y="98" class="track-title">QUANTITATIVE RIGOR</text>
+    <text x="14" y="117" class="card-metric" fill="#2DD4BF">100 / 100 in Maths</text>
+
+    <!-- Progress bar -->
+    <rect x="14" y="125" width="140" height="5" rx="2.5" fill="#1E293B" />
+    <rect x="14" y="125" width="140" height="5" rx="2.5" fill="url(#glowTeal)">
+      <animate attributeName="width" values="20;140" dur="1.6s" fill="freeze" />
+    </rect>
+    <text x="14" y="146" class="track-title" fill="#2DD4BF">FLAWLESS SCORE</text>
   </g>
 
-  <!-- TILE 3: SGPA 9.25 -->
-  <g transform="translate(366, 12)">
-    <rect width="164" height="106" rx="8" fill="url(#tileBgDark)" stroke="#1E293B" stroke-width="1" />
-    <rect x="10" y="10" width="60" height="15" rx="7.5" fill="#0C4A6E" fill-opacity="0.4" stroke="#38BDF8" stroke-width="0.8" />
-    <text x="40" y="21" text-anchor="middle" class="ach-tag" fill="#38BDF8">HONORS</text>
+  <!-- ==================== CARD 3: SGPA 9.25 ==================== -->
+  <g transform="translate(366, 8)">
+    <rect width="168" height="154" rx="10" fill="url(#achCardDark)" stroke="#1E293B" stroke-width="1.2" />
+    <rect width="168" height="154" rx="10" fill="none" stroke="#38BDF8" stroke-opacity="0.3" stroke-width="1">
+      <animate attributeName="stroke-opacity" values="0.15;0.5;0.15" dur="3s" begin="1.2s" repeatCount="indefinite" />
+    </rect>
 
-    <text x="10" y="44" class="ach-label">PONDICHERRY UNIV</text>
-    <text x="10" y="66" class="ach-val" fill="url(#cyanGleam)">SGPA 9.25 / 10</text>
-    <text x="10" y="84" class="ach-sub">Sem 1: 9.23</text>
-    <text x="10" y="97" class="ach-sub" fill="#64748B">Sem 2: 9.25 (CSBS)</text>
+    <text x="14" y="24" class="track-title">HONOR 03</text>
+    <rect x="80" y="13" width="74" height="17" rx="8.5" fill="#0C4A6E" fill-opacity="0.5" stroke="#38BDF8" stroke-width="0.8" />
+    <text x="87" y="25" class="badge-label" fill="#38BDF8">CSBS HONORS</text>
+
+    <text x="14" y="52" class="card-head">University SGPA</text>
+    <text x="14" y="69" class="card-detail">Pondicherry CSBS</text>
+
+    <text x="14" y="98" class="track-title">ACADEMIC INDEX</text>
+    <text x="14" y="117" class="card-metric" fill="#38BDF8">SGPA 9.25</text>
+
+    <!-- Progress bar -->
+    <rect x="14" y="125" width="140" height="5" rx="2.5" fill="#1E293B" />
+    <rect x="14" y="125" width="130" height="5" rx="2.5" fill="url(#glowCyan)">
+      <animate attributeName="width" values="20;130" dur="1.6s" fill="freeze" />
+    </rect>
+    <text x="14" y="146" class="track-title" fill="#38BDF8">SEMESTERS 1 &amp; 2</text>
   </g>
 
-  <!-- TILE 4: PRAGYAN NIT TRICHY -->
-  <g transform="translate(542, 12)">
-    <rect width="164" height="106" rx="8" fill="url(#tileBgDark)" stroke="#1E293B" stroke-width="1" />
-    <rect x="10" y="10" width="68" height="15" rx="7.5" fill="#312E81" fill-opacity="0.4" stroke="#818CF8" stroke-width="0.8" />
-    <text x="44" y="21" text-anchor="middle" class="ach-tag" fill="#A5B4FC">TECH SUMMIT</text>
+  <!-- ==================== CARD 4: PRAGYAN NIT TRICHY ==================== -->
+  <g transform="translate(544, 8)">
+    <rect width="168" height="154" rx="10" fill="url(#achCardDark)" stroke="#1E293B" stroke-width="1.2" />
+    <rect width="168" height="154" rx="10" fill="none" stroke="#C084FC" stroke-opacity="0.3" stroke-width="1">
+      <animate attributeName="stroke-opacity" values="0.15;0.5;0.15" dur="3s" begin="1.8s" repeatCount="indefinite" />
+    </rect>
 
-    <text x="10" y="44" class="ach-label">NIT TRICHY</text>
-    <text x="10" y="66" class="ach-val" fill="#A5B4FC">PRAGYAN</text>
-    <text x="10" y="84" class="ach-sub">Technical Participant</text>
-    <text x="10" y="97" class="ach-sub" fill="#64748B">Premier Student Fest</text>
+    <text x="14" y="24" class="track-title">HONOR 04</text>
+    <rect x="76" y="13" width="78" height="17" rx="8.5" fill="#4C1D95" fill-opacity="0.5" stroke="#A855F7" stroke-width="0.8" />
+    <text x="83" y="25" class="badge-label" fill="#C084FC">NIT TRICHY</text>
+
+    <text x="14" y="52" class="card-head">Pragyan Fest</text>
+    <text x="14" y="69" class="card-detail">Participant NIT Trichy</text>
+
+    <text x="14" y="98" class="track-title">TECH FESTIVAL</text>
+    <text x="14" y="117" class="card-metric" fill="#C084FC">Pragyan NIT Trichy</text>
+
+    <!-- Progress bar -->
+    <rect x="14" y="125" width="140" height="5" rx="2.5" fill="#1E293B" />
+    <rect x="14" y="125" width="126" height="5" rx="2.5" fill="url(#glowPurple)">
+      <animate attributeName="width" values="20;126" dur="1.6s" fill="freeze" />
+    </rect>
+    <text x="14" y="146" class="track-title" fill="#C084FC">TECH SUMMIT PARTICIPANT</text>
   </g>
 
-  <!-- TILE 5: RENOPAY LIVE ON RENDER -->
-  <g transform="translate(718, 12)">
-    <rect width="168" height="106" rx="8" fill="url(#tileBgDark)" stroke="#1E293B" stroke-width="1" />
-    <!-- Pulsing Live Dot -->
-    <rect x="10" y="10" width="56" height="15" rx="7.5" fill="#064E3B" fill-opacity="0.5" stroke="#10B981" stroke-width="0.8" />
-    <circle cx="20" cy="17.5" r="3" fill="#10B981">
-      <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite" />
-    </circle>
-    <text x="42" y="21" text-anchor="middle" class="ach-tag" fill="#34D399">PROD</text>
+  <!-- ==================== CARD 5: RENOPAY LIVE ON RENDER ==================== -->
+  <g transform="translate(722, 8)">
+    <rect width="168" height="154" rx="10" fill="url(#achCardDark)" stroke="#1E293B" stroke-width="1.2" />
+    <rect width="168" height="154" rx="10" fill="none" stroke="#34D399" stroke-opacity="0.3" stroke-width="1">
+      <animate attributeName="stroke-opacity" values="0.15;0.5;0.15" dur="3s" begin="2.4s" repeatCount="indefinite" />
+    </rect>
 
-    <text x="10" y="44" class="ach-label">FULL-STACK FINTECH</text>
-    <text x="10" y="66" class="ach-val" fill="url(#greenGleam)">RENOPAY</text>
-    <text x="10" y="84" class="ach-sub">Live on Render</text>
-    <text x="10" y="97" class="ach-sub" fill="#64748B">Docker + Nginx Rails</text>
+    <text x="14" y="24" class="track-title">HONOR 05</text>
+    <rect x="76" y="13" width="78" height="17" rx="8.5" fill="#064E3B" fill-opacity="0.55" stroke="#10B981" stroke-width="0.8" />
+    <text x="83" y="25" class="badge-label" fill="#34D399">PROD LIVE</text>
+
+    <text x="14" y="52" class="card-head">RenoPay Rails</text>
+    <text x="14" y="69" class="card-detail">UPI Engine &amp; Ledgers</text>
+
+    <text x="14" y="98" class="track-title">DEPLOYMENT STATUS</text>
+    <text x="14" y="117" class="card-metric" fill="#34D399">Live on Render</text>
+
+    <!-- Progress bar -->
+    <rect x="14" y="125" width="140" height="5" rx="2.5" fill="#1E293B" />
+    <rect x="14" y="125" width="138" height="5" rx="2.5" fill="url(#glowEmerald)">
+      <animate attributeName="width" values="20;138" dur="1.6s" fill="freeze" />
+    </rect>
+    <text x="14" y="146" class="track-title" fill="#34D399">CLOUD INFRASTRUCTURE</text>
   </g>
 </svg>

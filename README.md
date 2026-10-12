@@ -234,16 +234,6 @@
 
 ## 🎖 Quantitative Rigor &amp; Benchmarks
 
-<div align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/achievements-strip-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/achievements-strip-light.svg">
-  <img alt="Verified Honors &amp; Achievements Strip" src="assets/achievements-strip-dark.svg" width="100%">
-</picture>
-</div>
-
-<br/>
-
 <table>
   <tr>
     <td width="33%" align="center">
@@ -346,8 +336,25 @@
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=rajrishabh23959-oss&amp;show_icons=true&amp;theme=tokyonight&amp;border_color=2DD4BF&amp;bg_color=090E1A&amp;title_color=2DD4BF&amp;text_color=E2E8F0&amp;icon_color=F59E0B&amp;count_private=true" alt="GitHub Analytics" />
-&nbsp;
+<!-- VERIFIED ACHIEVEMENTS STRIP -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/achievements-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/achievements-light.svg">
+  <img alt="Verified Achievements &amp; Track Record" src="assets/achievements-dark.svg" width="100%">
+</picture>
+
+<br/>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/JEE%20Advanced-Qualified%202X%20(2024%20%26%202025)-F59E0B?style=flat-square" alt="JEE Advanced 2X"/>
+  <img src="https://img.shields.io/badge/Mathematics-100%2F100%20Raw%20Score-2DD4BF?style=flat-square" alt="Mathematics 100/100"/>
+  <img src="https://img.shields.io/badge/Academics-SGPA%209.25-38BDF8?style=flat-square" alt="SGPA 9.25"/>
+  <img src="https://img.shields.io/badge/Pragyan%20NIT%20Trichy-Participant-A855F7?style=flat-square" alt="Pragyan NIT Trichy"/>
+  <img src="https://img.shields.io/badge/RenoPay-Live%20on%20Render-46E3B7?style=flat-square&amp;logo=render&amp;logoColor=black" alt="RenoPay Live"/>
+</p>
+
+<br/>
+
 <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rajrishabh23959-oss&amp;layout=compact&amp;theme=tokyonight&amp;border_color=2DD4BF&amp;bg_color=090E1A&amp;title_color=2DD4BF&amp;text_color=E2E8F0&amp;icon_color=F59E0B" alt="Top Languages" />
 
 <br/><br/>
@@ -362,6 +369,7 @@
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rajrishabh23959-oss/rajrishabh23959-oss/output/github-contribution-grid-snake.svg">
   <img alt="Activity Snake" src="assets/snake-placeholder.svg" width="100%">
 </picture>
+
 </div>
 
 <div align="center">
@@ -397,11 +405,11 @@ If you are engineering next-generation transaction rails, quantitative risk mode
 
 <br/>
 
-<a href="https://rajrishabh23959-oss.github.io/rishabh_portfolio/"><img src="https://img.shields.io/badge/🌐%20INTERACTIVE%20PORTFOLIO-0D9488?style=for-the-badge" alt="Portfolio"/></a>
+<a href="https://rajrishabh23959-oss.github.io/rishabh_portfolio/"><img src="https://img.shields.io/badge/%F0%9F%8C%90%20INTERACTIVE%20PORTFOLIO-0D9488?style=for-the-badge" alt="Portfolio"/></a>
 &nbsp;&nbsp;
-<a href="https://linkedin.com/in/rishabh-raj-804755382"><img src="https://img.shields.io/badge/💼%20CONNECT%20ON%20LINKEDIN-0A66C2?style=for-the-badge" alt="LinkedIn"/></a>
+<a href="https://linkedin.com/in/rishabh-raj-804755382"><img src="https://img.shields.io/badge/%F0%9F%92%BC%20CONNECT%20ON%20LINKEDIN-0A66C2?style=for-the-badge" alt="LinkedIn"/></a>
 &nbsp;&nbsp;
-<a href="mailto:rajrishabh23959@gmail.com"><img src="https://img.shields.io/badge/📧%20TRANSMIT%20EMAIL-EA4335?style=for-the-badge" alt="Email"/></a>
+<a href="mailto:rajrishabh23959@gmail.com"><img src="https://img.shields.io/badge/%F0%9F%93%A7%20TRANSMIT%20EMAIL-EA4335?style=for-the-badge" alt="Email"/></a>
 
 <br/><br/>
 

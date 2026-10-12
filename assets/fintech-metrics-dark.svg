@@ -1,101 +1,73 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 180" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 170" width="100%" height="100%">
   <defs>
-    <linearGradient id="cardGradDark" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#090E1A" />
-      <stop offset="100%" stop-color="#0D1527" />
-    </linearGradient>
-
-    <linearGradient id="barTeal" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0284C7" />
-      <stop offset="100%" stop-color="#2DD4BF" />
-    </linearGradient>
-
-    <linearGradient id="barGold" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#F59E0B" />
-      <stop offset="100%" stop-color="#FCD34D" />
-    </linearGradient>
-
-    <linearGradient id="barCyan" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#38BDF8" />
-      <stop offset="100%" stop-color="#818CF8" />
-    </linearGradient>
+    <style>
+      :root {
+        --bg: #0E1624;
+        --card: #141F33;
+        --border: #23314B;
+        --text-primary: #E8E4D8;
+        --text-secondary: #8E99A8;
+        --text-muted: #5D6A7D;
+        --accent: #B08D57;
+      }
+      .fm-serif { font-family: Georgia, 'Palatino Linotype', Palatino, serif; font-size: 16px; font-weight: 700; fill: #E8E4D8; }
+      .fm-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+      .fm-mono { font-family: -apple-system, BlinkMacSystemFont, 'SF Mono', 'Fira Code', 'Courier New', monospace; }
+      
+      .fm-tag { font-size: 8.5px; font-weight: 700; fill: #B08D57; letter-spacing: 1.5px; text-transform: uppercase; }
+      .fm-sub { font-size: 11px; font-weight: 400; fill: #8E99A8; }
+      .fm-metric-label { font-size: 8px; font-weight: 600; fill: #5D6A7D; letter-spacing: 1.2px; text-transform: uppercase; }
+      .fm-metric-val { font-family: Georgia, serif; font-size: 13.5px; font-weight: 700; fill: #E8E4D8; }
+      .fm-footer { font-size: 8px; font-weight: 600; fill: #5D6A7D; letter-spacing: 1.2px; text-transform: uppercase; }
+    </style>
   </defs>
 
-  <style>
-    .card-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace; font-size: 11px; fill: #64748B; font-weight: 700; letter-spacing: 1px; }
-    .card-headline { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 16px; fill: #F8FAFC; font-weight: 800; }
-    .card-sub { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12px; fill: #94A3B8; }
-    .card-badge { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace; font-size: 9.5px; font-weight: 700; letter-spacing: 0.5px; }
-    .metric-val { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace; font-size: 13px; font-weight: 800; }
-  </style>
+  <!-- Base Container -->
+  <rect width="900" height="170" fill="#0E1624" />
 
-  <!-- CARD 1: FRAUD & BIOMETRICS -->
-  <g transform="translate(10, 10)">
-    <rect width="280" height="160" rx="10" fill="url(#cardGradDark)" stroke="#1E293B" stroke-width="1.2" />
-    
-    <!-- Top Bar -->
-    <text x="16" y="26" class="card-title">TELEMETRY 01 // SENTINAI</text>
-    <rect x="186" y="14" width="78" height="18" rx="9" fill="#064E3B" fill-opacity="0.5" stroke="#10B981" stroke-width="0.8" />
-    <text x="195" y="27" class="card-badge" fill="#34D399">IDEATHON</text>
+  <!-- CARD 1: SENTINAI -->
+  <g transform="translate(14, 10)">
+    <rect width="278" height="150" rx="6" fill="#141F33" stroke="#23314B" stroke-width="1" />
+    <text x="18" y="26" class="fm-mono fm-tag">SPEC 01 // BIOMETRICS</text>
+    <text x="18" y="52" class="fm-serif">SentinAI Protocol</text>
+    <text x="18" y="70" class="fm-sans fm-sub">Keystroke Dynamic Verification</text>
 
-    <text x="16" y="55" class="card-headline">Behavioral Biometrics</text>
-    <text x="16" y="73" class="card-sub">Keystroke Dynamics &amp; Risk Profiling</text>
+    <!-- Financial Report Style Progress Bar -->
+    <text x="18" y="102" class="fm-mono fm-metric-label">VERIFICATION RATE</text>
+    <text x="260" y="102" text-anchor="end" class="fm-metric-val">99.4%</text>
+    <line x1="18" y1="110" x2="260" y2="110" stroke="#23314B" stroke-width="2" />
+    <line x1="18" y1="110" x2="242" y2="110" stroke="#B08D57" stroke-width="2" />
 
-    <!-- Progress Meter -->
-    <text x="16" y="105" class="card-title">VERIFICATION CONFIDENCE</text>
-    <text x="210" y="105" class="metric-val" fill="#2DD4BF">99.4%</text>
-
-    <rect x="16" y="114" width="248" height="6" rx="3" fill="#1E293B" />
-    <rect x="16" y="114" width="232" height="6" rx="3" fill="url(#barTeal)">
-      <animate attributeName="width" values="40;232" dur="1.8s" fill="freeze" />
-    </rect>
-
-    <text x="16" y="145" class="card-badge" fill="#64748B">CONTINUOUS AUTH · ZERO TRUST</text>
+    <text x="18" y="136" class="fm-mono fm-footer">NATIONAL IDEATHON DEFENSE</text>
   </g>
 
-  <!-- CARD 2: DIGITAL BANKING RAILS -->
+  <!-- CARD 2: RENOPAY -->
   <g transform="translate(310, 10)">
-    <rect width="280" height="160" rx="10" fill="url(#cardGradDark)" stroke="#1E293B" stroke-width="1.2" />
+    <rect width="280" height="150" rx="6" fill="#141F33" stroke="#23314B" stroke-width="1" />
+    <text x="18" y="26" class="fm-mono fm-tag">SPEC 02 // PAYMENT ENGINE</text>
+    <text x="18" y="52" class="fm-serif">RenoPay Architecture</text>
+    <text x="18" y="70" class="fm-sans fm-sub">UPI Lite &amp; Double-Entry Ledger</text>
 
-    <text x="16" y="26" class="card-title">TELEMETRY 02 // RENOPAY</text>
-    <rect x="178" y="14" width="86" height="18" rx="9" fill="#1E3A8A" fill-opacity="0.5" stroke="#38BDF8" stroke-width="0.8" />
-    <text x="187" y="27" class="card-badge" fill="#38BDF8">LIVE PROD</text>
+    <text x="18" y="102" class="fm-mono fm-metric-label">DEPLOYMENT RUNTIME</text>
+    <text x="262" y="102" text-anchor="end" class="fm-metric-val" fill="#B08D57">LIVE PROD</text>
+    <line x1="18" y1="110" x2="262" y2="110" stroke="#23314B" stroke-width="2" />
+    <line x1="18" y1="110" x2="228" y2="110" stroke="#B08D57" stroke-width="2" />
 
-    <text x="16" y="55" class="card-headline">Full-Stack UPI Engine</text>
-    <text x="16" y="73" class="card-sub">UPI Lite, Shared Vaults, Ledger Book</text>
-
-    <!-- Progress Meter -->
-    <text x="16" y="105" class="card-title">CONTAINER LATENCY</text>
-    <text x="215" y="105" class="metric-val" fill="#38BDF8">&lt; 18ms</text>
-
-    <rect x="16" y="114" width="248" height="6" rx="3" fill="#1E293B" />
-    <rect x="16" y="114" width="215" height="6" rx="3" fill="url(#barCyan)">
-      <animate attributeName="width" values="30;215" dur="1.8s" fill="freeze" />
-    </rect>
-
-    <text x="16" y="145" class="card-badge" fill="#64748B">DOCKER · NGINX · RENDER HOSTED</text>
+    <text x="18" y="136" class="fm-mono fm-footer">DOCKER · NGINX · RENDER HOSTED</text>
   </g>
 
-  <!-- CARD 3: QUANTITATIVE & BUSINESS RIGOR -->
-  <g transform="translate(610, 10)">
-    <rect width="280" height="160" rx="10" fill="url(#cardGradDark)" stroke="#1E293B" stroke-width="1.2" />
+  <!-- CARD 3: ACADEMIC & CSBS RIGOR -->
+  <g transform="translate(608, 10)">
+    <rect width="278" height="150" rx="6" fill="#141F33" stroke="#23314B" stroke-width="1" />
+    <text x="18" y="26" class="fm-mono fm-tag">SPEC 03 // QUANTITATIVE</text>
+    <text x="18" y="52" class="fm-serif">CSBS Dual Rigor</text>
+    <text x="18" y="70" class="fm-sans fm-sub">Mathematics &amp; Financial Accounting</text>
 
-    <text x="16" y="26" class="card-title">TELEMETRY 03 // ACADEMIC</text>
-    <rect x="188" y="14" width="76" height="18" rx="9" fill="#78350F" fill-opacity="0.5" stroke="#F59E0B" stroke-width="0.8" />
-    <text x="197" y="27" class="card-badge" fill="#FCD34D">HONORS</text>
+    <text x="18" y="102" class="fm-mono fm-metric-label">ACADEMIC SGPA</text>
+    <text x="260" y="102" text-anchor="end" class="fm-metric-val">9.25 / 10</text>
+    <line x1="18" y1="110" x2="260" y2="110" stroke="#23314B" stroke-width="2" />
+    <line x1="18" y1="110" x2="248" y2="110" stroke="#B08D57" stroke-width="2" />
 
-    <text x="16" y="55" class="card-headline">CSBS Dual Competency</text>
-    <text x="16" y="73" class="card-sub">Quantitative Modeling &amp; Accounting</text>
-
-    <!-- Progress Meter -->
-    <text x="16" y="105" class="card-title">MATH &amp; SGPA BENCHMARK</text>
-    <text x="210" y="105" class="metric-val" fill="#FCD34D">9.25 / 10</text>
-
-    <rect x="16" y="114" width="248" height="6" rx="3" fill="#1E293B" />
-    <rect x="16" y="114" width="236" height="6" rx="3" fill="url(#barGold)">
-      <animate attributeName="width" values="50;236" dur="1.8s" fill="freeze" />
-    </rect>
-
-    <text x="16" y="145" class="card-badge" fill="#64748B">100/100 MATH · JEE ADVANCED (2X)</text>
+    <text x="18" y="136" class="fm-mono fm-footer">100/100 MATH · JEE ADVANCED 2X</text>
   </g>
 </svg>

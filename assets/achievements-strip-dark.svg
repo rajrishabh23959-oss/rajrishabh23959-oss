@@ -1,108 +1,73 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 130" width="100%" height="100%">
   <defs>
-    <!-- Background Gradient -->
-    <linearGradient id="achBgDark" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#060914" />
-      <stop offset="50%" stop-color="#0A1224" />
-      <stop offset="100%" stop-color="#050812" />
-    </linearGradient>
-
-    <!-- Card Background -->
-    <linearGradient id="tileBgDark" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#0E192E" />
-      <stop offset="100%" stop-color="#070D1A" />
-    </linearGradient>
-
-    <!-- Accents -->
-    <linearGradient id="goldGleam" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#F59E0B" />
-      <stop offset="100%" stop-color="#FCD34D" />
-    </linearGradient>
-    <linearGradient id="tealGleam" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0284C7" />
-      <stop offset="100%" stop-color="#2DD4BF" />
-    </linearGradient>
-    <linearGradient id="cyanGleam" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#38BDF8" />
-      <stop offset="100%" stop-color="#818CF8" />
-    </linearGradient>
-    <linearGradient id="greenGleam" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#10B981" />
-      <stop offset="100%" stop-color="#34D399" />
-    </linearGradient>
+    <style>
+      :root {
+        --bg: #0E1624;
+        --card: #141F33;
+        --border: #23314B;
+        --text-primary: #E8E4D8;
+        --text-secondary: #8E99A8;
+        --text-muted: #5D6A7D;
+        --accent: #B08D57;
+      }
+      .as-tag { font-family: -apple-system, BlinkMacSystemFont, 'SF Mono', 'Fira Code', monospace; font-size: 8px; font-weight: 700; fill: #B08D57; letter-spacing: 1.2px; text-transform: uppercase; }
+      .as-label { font-family: -apple-system, BlinkMacSystemFont, 'SF Mono', 'Fira Code', monospace; font-size: 8px; font-weight: 600; fill: #5D6A7D; letter-spacing: 1px; text-transform: uppercase; }
+      .as-val { font-family: Georgia, 'Palatino Linotype', Palatino, serif; font-size: 14.5px; font-weight: 700; fill: #E8E4D8; letter-spacing: 0.2px; }
+      .as-sub { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 8.5px; font-weight: 500; fill: #8E99A8; }
+      .as-sub-muted { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 8.5px; font-weight: 400; fill: #5D6A7D; }
+    </style>
   </defs>
 
-  <style>
-    .ach-label { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace; font-size: 8.5px; font-weight: 700; fill: #64748B; letter-spacing: 0.8px; }
-    .ach-val { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 13.5px; font-weight: 900; letter-spacing: 0.2px; }
-    .ach-sub { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 8.5px; font-weight: 600; fill: #94A3B8; }
-    .ach-tag { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace; font-size: 8px; font-weight: 700; }
-  </style>
-
   <!-- Container Base -->
-  <rect width="900" height="130" rx="12" fill="url(#achBgDark)" stroke="#1E293B" stroke-width="1.2" />
+  <rect width="900" height="130" fill="#0E1624" stroke="#23314B" stroke-width="1" />
 
   <!-- TILE 1: JEE ADVANCED -->
   <g transform="translate(14, 12)">
-    <rect width="164" height="106" rx="8" fill="url(#tileBgDark)" stroke="#1E293B" stroke-width="1" />
-    <rect x="10" y="10" width="60" height="15" rx="7.5" fill="#78350F" fill-opacity="0.4" stroke="#F59E0B" stroke-width="0.8" />
-    <text x="40" y="21" text-anchor="middle" class="ach-tag" fill="#FCD34D">NATIONAL</text>
-
-    <text x="10" y="44" class="ach-label">ENGINEERING RANK</text>
-    <text x="10" y="66" class="ach-val" fill="url(#goldGleam)">JEE ADVANCED</text>
-    <text x="10" y="84" class="ach-sub">Qualified 2X</text>
-    <text x="10" y="97" class="ach-sub" fill="#64748B">Years 2024 &amp; 2025</text>
+    <rect width="164" height="106" rx="6" fill="#141F33" stroke="#23314B" stroke-width="1" />
+    <text x="12" y="22" class="as-tag">NATIONAL</text>
+    <text x="12" y="44" class="as-label">ENGINEERING RANK</text>
+    <text x="12" y="66" class="as-val" fill="#B08D57">JEE Advanced</text>
+    <text x="12" y="84" class="as-sub">Qualified 2X</text>
+    <text x="12" y="97" class="as-sub-muted">Years 2024 &amp; 2025</text>
   </g>
 
   <!-- TILE 2: 100/100 MATHS -->
   <g transform="translate(190, 12)">
-    <rect width="164" height="106" rx="8" fill="url(#tileBgDark)" stroke="#1E293B" stroke-width="1" />
-    <rect x="10" y="10" width="60" height="15" rx="7.5" fill="#064E3B" fill-opacity="0.4" stroke="#2DD4BF" stroke-width="0.8" />
-    <text x="40" y="21" text-anchor="middle" class="ach-tag" fill="#2DD4BF">PERFECT</text>
-
-    <text x="10" y="44" class="ach-label">QUANTITATIVE RIGOR</text>
-    <text x="10" y="66" class="ach-val" fill="url(#tealGleam)">100 / 100</text>
-    <text x="10" y="84" class="ach-sub">Intermediate Maths</text>
-    <text x="10" y="97" class="ach-sub" fill="#64748B">Top Percentile</text>
+    <rect width="164" height="106" rx="6" fill="#141F33" stroke="#23314B" stroke-width="1" />
+    <text x="12" y="22" class="as-tag">PERFECT SCORE</text>
+    <text x="12" y="44" class="as-label">QUANTITATIVE RIGOR</text>
+    <text x="12" y="66" class="as-val" fill="#E8E4D8">100 / 100</text>
+    <text x="12" y="84" class="as-sub">Intermediate Mathematics</text>
+    <text x="12" y="97" class="as-sub-muted">Analytical Benchmark</text>
   </g>
 
   <!-- TILE 3: SGPA 9.25 -->
   <g transform="translate(366, 12)">
-    <rect width="164" height="106" rx="8" fill="url(#tileBgDark)" stroke="#1E293B" stroke-width="1" />
-    <rect x="10" y="10" width="60" height="15" rx="7.5" fill="#0C4A6E" fill-opacity="0.4" stroke="#38BDF8" stroke-width="0.8" />
-    <text x="40" y="21" text-anchor="middle" class="ach-tag" fill="#38BDF8">HONORS</text>
-
-    <text x="10" y="44" class="ach-label">PONDICHERRY UNIV</text>
-    <text x="10" y="66" class="ach-val" fill="url(#cyanGleam)">SGPA 9.25 / 10</text>
-    <text x="10" y="84" class="ach-sub">Sem 1: 9.23</text>
-    <text x="10" y="97" class="ach-sub" fill="#64748B">Sem 2: 9.25 (CSBS)</text>
+    <rect width="164" height="106" rx="6" fill="#141F33" stroke="#23314B" stroke-width="1" />
+    <text x="12" y="22" class="as-tag">UNIVERSITY</text>
+    <text x="12" y="44" class="as-label">ACADEMIC STANDING</text>
+    <text x="12" y="66" class="as-val" fill="#E8E4D8">9.25 / 10</text>
+    <text x="12" y="84" class="as-sub">Sem 1: 9.23 · Sem 2: 9.25</text>
+    <text x="12" y="97" class="as-sub-muted">Pondicherry Univ CSBS</text>
   </g>
 
   <!-- TILE 4: PRAGYAN NIT TRICHY -->
   <g transform="translate(542, 12)">
-    <rect width="164" height="106" rx="8" fill="url(#tileBgDark)" stroke="#1E293B" stroke-width="1" />
-    <rect x="10" y="10" width="68" height="15" rx="7.5" fill="#312E81" fill-opacity="0.4" stroke="#818CF8" stroke-width="0.8" />
-    <text x="44" y="21" text-anchor="middle" class="ach-tag" fill="#A5B4FC">TECH SUMMIT</text>
-
-    <text x="10" y="44" class="ach-label">NIT TRICHY</text>
-    <text x="10" y="66" class="ach-val" fill="#A5B4FC">PRAGYAN</text>
-    <text x="10" y="84" class="ach-sub">Technical Participant</text>
-    <text x="10" y="97" class="ach-sub" fill="#64748B">Premier Student Fest</text>
+    <rect width="164" height="106" rx="6" fill="#141F33" stroke="#23314B" stroke-width="1" />
+    <text x="12" y="22" class="as-tag">TECH FEST</text>
+    <text x="12" y="44" class="as-label">NATIONAL SUMMIT</text>
+    <text x="12" y="66" class="as-val" fill="#E8E4D8">Pragyan</text>
+    <text x="12" y="84" class="as-sub">NIT Trichy Participant</text>
+    <text x="12" y="97" class="as-sub-muted">Technical Festival</text>
   </g>
 
   <!-- TILE 5: RENOPAY LIVE ON RENDER -->
   <g transform="translate(718, 12)">
-    <rect width="168" height="106" rx="8" fill="url(#tileBgDark)" stroke="#1E293B" stroke-width="1" />
-    <!-- Pulsing Live Dot -->
-    <rect x="10" y="10" width="56" height="15" rx="7.5" fill="#064E3B" fill-opacity="0.5" stroke="#10B981" stroke-width="0.8" />
-    <circle cx="20" cy="17.5" r="3" fill="#10B981">
-      <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite" />
-    </circle>
-    <text x="42" y="21" text-anchor="middle" class="ach-tag" fill="#34D399">PROD</text>
-
-    <text x="10" y="44" class="ach-label">FULL-STACK FINTECH</text>
-    <text x="10" y="66" class="ach-val" fill="url(#greenGleam)">RENOPAY</text>
-    <text x="10" y="84" class="ach-sub">Live on Render</text>
-    <text x="10" y="97" class="ach-sub" fill="#64748B">Docker + Nginx Rails</text>
+    <rect width="168" height="106" rx="6" fill="#141F33" stroke="#23314B" stroke-width="1" />
+    <text x="12" y="22" class="as-tag">DEPLOYED</text>
+    <text x="12" y="44" class="as-label">FINTECH ENGINE</text>
+    <text x="12" y="66" class="as-val" fill="#B08D57">RenoPay</text>
+    <text x="12" y="84" class="as-sub">Live on Render</text>
+    <text x="12" y="97" class="as-sub-muted">Docker + Nginx Rails</text>
   </g>
 </svg>

@@ -1,10 +1,10 @@
 <div align="center">
 
-<!-- HERO BANNER: Institutional FinTech Terminal -->
+<!-- HERO BANNER: Futuristic Glass-Morphism FinTech Card -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-banner-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/hero-banner-light.svg">
-  <img alt="Rishabh Raj — AI &amp; FinTech Terminal" src="assets/hero-banner-dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-card-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/hero-card-light.svg">
+  <img alt="Rishabh Raj — AI × FinTech Card" src="assets/hero-card-dark.svg" width="100%">
 </picture>
 
 <br/><br/>
@@ -16,12 +16,11 @@
 
 <br/><br/>
 
-<!-- ACTION RAIL / COMMAND BUTTONS -->
-<a href="https://rajrishabh23959-oss.github.io/rishabh_portfolio/"><img src="https://img.shields.io/badge/LIVE%20PORTFOLIO-0D9488?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=white" alt="Live Portfolio"></a>
-<a href="https://linkedin.com/in/rishabh-raj-804755382"><img src="https://img.shields.io/badge/LINKEDIN%20NETWORK-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn"></a>
-<a href="mailto:rajrishabh23959@gmail.com"><img src="https://img.shields.io/badge/DIRECT%20DISPATCH-EA4335?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email"></a>
-<a href="https://github.com/rajrishabh23959-oss"><img src="https://img.shields.io/badge/GITHUB%20CORE-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub"></a>
-<img src="https://komarev.com/ghpvc/?username=rajrishabh23959-oss&amp;label=SYSTEM%20AUDITS&amp;color=0d9488&amp;style=for-the-badge" alt="Profile Audits">
+<!-- ACTION RAIL: CLEAN VERIFIED BUTTONS -->
+<a href="https://rajrishabh23959-oss.github.io/rishabh_portfolio/"><img src="https://img.shields.io/badge/PORTFOLIO-0D9488?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=white" alt="Portfolio"></a>
+<a href="https://linkedin.com/in/rishabh-raj-804755382"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn"></a>
+<a href="mailto:rajrishabh23959@gmail.com"><img src="https://img.shields.io/badge/EMAIL-EA4335?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email"></a>
+<a href="https://github.com/rajrishabh23959-oss"><img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub"></a>
 
 <br/><br/>
 

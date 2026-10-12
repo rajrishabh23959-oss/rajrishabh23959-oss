@@ -1,0 +1,208 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" width="100%" height="100%">
+  <defs>
+    <!-- Background Canvas Gradient -->
+    <linearGradient id="bgGradLt" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="50%" stop-color="#F8FAFC" />
+      <stop offset="100%" stop-color="#F1F5F9" />
+    </linearGradient>
+
+    <!-- Ambient Light Auras -->
+    <radialGradient id="tealAuraLt" cx="30%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#0D9488" stop-opacity="0.14" />
+      <stop offset="100%" stop-color="#0D9488" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="goldAuraLt" cx="70%" cy="70%" r="50%">
+      <stop offset="0%" stop-color="#D97706" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#D97706" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="blueAuraLt" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#0284C7" stop-opacity="0.10" />
+      <stop offset="100%" stop-color="#0284C7" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Card Body Frosted Glass Gradient -->
+    <linearGradient id="cardGlassLt" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.94" />
+      <stop offset="50%" stop-color="#F8FAFC" stop-opacity="0.97" />
+      <stop offset="100%" stop-color="#F1F5F9" stop-opacity="0.99" />
+    </linearGradient>
+
+    <!-- Shimmering Edge Gradient -->
+    <linearGradient id="borderShimmerLt" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D9488">
+        <animate attributeName="stop-color" values="#0D9488;#0284C7;#D97706;#0D9488" dur="7s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="40%" stop-color="#0284C7">
+        <animate attributeName="stop-color" values="#0284C7;#D97706;#0D9488;#0284C7" dur="7s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="80%" stop-color="#D97706">
+        <animate attributeName="stop-color" values="#D97706;#0D9488;#0284C7;#D97706" dur="7s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#0D9488">
+        <animate attributeName="stop-color" values="#0D9488;#0284C7;#D97706;#0D9488" dur="7s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <!-- Holographic Chip Gradient -->
+    <linearGradient id="chipGradLt" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE68A" />
+      <stop offset="50%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#B45309" />
+    </linearGradient>
+
+    <!-- Name Emboss Gradient -->
+    <linearGradient id="nameGradLt" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="45%" stop-color="#0369A1" />
+      <stop offset="80%" stop-color="#0D9488" />
+      <stop offset="100%" stop-color="#B45309" />
+    </linearGradient>
+
+    <!-- Shimmer Sweep Line Gradient -->
+    <linearGradient id="shimmerBeamLt" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0" />
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Card Clip Path for Sheen Effect -->
+    <clipPath id="cardClipLt">
+      <rect x="170" y="25" width="560" height="310" rx="20" />
+    </clipPath>
+
+    <!-- Drop Shadow Filter -->
+    <filter id="cardShadowLt" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#64748B" flood-opacity="0.22" />
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#0D9488" flood-opacity="0.12" />
+    </filter>
+  </defs>
+
+  <style>
+    .font-mono-lt { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Courier New', monospace; }
+    .font-sans-lt { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; }
+    
+    .card-tier-lt { font-size: 11px; font-weight: 800; fill: #0D9488; letter-spacing: 2px; }
+    .card-sub-tier-lt { font-size: 9px; font-weight: 700; fill: #64748B; letter-spacing: 1px; }
+    .card-holder-lt { font-size: 26px; font-weight: 900; letter-spacing: 2px; fill: url(#nameGradLt); }
+    .card-academic-lt { font-size: 11px; font-weight: 700; fill: #1E293B; letter-spacing: 0.8px; }
+    .card-focus-lt { font-size: 10px; font-weight: 700; fill: #0284C7; letter-spacing: 0.6px; }
+    
+    .metric-label-lt { font-size: 8.5px; font-weight: 800; fill: #64748B; letter-spacing: 1px; }
+    .metric-primary-lt { font-size: 15px; font-weight: 900; }
+    .metric-sub-lt { font-size: 8.5px; font-weight: 600; fill: #475569; letter-spacing: 0.3px; }
+  </style>
+
+  <!-- Canvas Background -->
+  <rect width="900" height="360" rx="16" fill="url(#bgGradLt)" />
+
+  <!-- Ambient Light Auras -->
+  <circle cx="280" cy="110" r="240" fill="url(#tealAuraLt)" />
+  <circle cx="620" cy="250" r="220" fill="url(#goldAuraLt)" />
+  <circle cx="450" cy="180" r="280" fill="url(#blueAuraLt)" />
+
+  <!-- Grid Lines (Background) -->
+  <g stroke="#CBD5E1" stroke-width="0.8" opacity="0.4" stroke-dasharray="4 6">
+    <line x1="60" y1="90" x2="840" y2="90" />
+    <line x1="60" y1="180" x2="840" y2="180" />
+    <line x1="60" y1="270" x2="840" y2="270" />
+    <line x1="220" y1="20" x2="220" y2="340" />
+    <line x1="450" y1="20" x2="450" y2="340" />
+    <line x1="680" y1="20" x2="680" y2="340" />
+  </g>
+
+  <!-- Outer Glow Ring behind Card -->
+  <rect x="168" y="23" width="564" height="314" rx="22" fill="none" stroke="url(#borderShimmerLt)" stroke-width="2" opacity="0.75" filter="url(#cardShadowLt)" />
+
+  <!-- THE GLASSMORPHIC CREDIT CARD -->
+  <g clip-path="url(#cardClipLt)">
+    <!-- Base Glass Surface -->
+    <rect x="170" y="25" width="560" height="310" rx="20" fill="url(#cardGlassLt)" />
+
+    <!-- Watermark: Interlocking AI & FinTech Dual Rings (Center-Right) -->
+    <g transform="translate(565, 175)" opacity="0.12">
+      <circle cx="-25" cy="0" r="60" fill="none" stroke="#0D9488" stroke-width="8" />
+      <circle cx="25" cy="0" r="60" fill="none" stroke="#D97706" stroke-width="8" />
+      <path d="M 0 -45 A 60 60 0 0 1 0 45 A 60 60 0 0 1 0 -45 Z" fill="#0284C7" opacity="0.3" />
+    </g>
+
+    <!-- Fine Geometric Neural Watermark Lines -->
+    <path d="M 170 120 Q 340 70 510 140 T 730 110" fill="none" stroke="#0D9488" stroke-width="0.8" opacity="0.15" />
+    <path d="M 170 200 Q 360 230 520 180 T 730 220" fill="none" stroke="#D97706" stroke-width="0.8" opacity="0.15" />
+
+    <!-- Shimmer Light Sweep Animation across Card -->
+    <rect x="-150" y="0" width="120" height="360" fill="url(#shimmerBeamLt)" transform="skewX(-28)">
+      <animate attributeName="x" values="-250; 1100; -250" dur="8s" repeatCount="indefinite" />
+    </rect>
+  </g>
+
+  <!-- Card Border Stroke (Crisp overlay) -->
+  <rect x="170" y="25" width="560" height="310" rx="20" fill="none" stroke="url(#borderShimmerLt)" stroke-width="1.8" />
+
+  <!-- ================= CARD FACE ELEMENTS ================= -->
+
+  <!-- 1. TOP ROW: CHIP, CONTACTLESS & BRANDING -->
+  <g transform="translate(204, 52)">
+    <!-- EMV Gold Smart Chip -->
+    <rect x="0" y="0" width="46" height="34" rx="6" fill="url(#chipGradLt)" stroke="#92400E" stroke-width="1" />
+    <!-- Chip Contact Engravings -->
+    <path d="M 0 17 L 16 17 M 30 17 L 46 17 M 16 0 L 16 34 M 30 0 L 30 34 M 16 11 L 30 11 M 16 23 L 30 23" stroke="#92400E" stroke-width="1" fill="none" opacity="0.85" />
+    <rect x="18" y="13" width="10" height="8" rx="2" fill="#FEF3C7" opacity="0.7" />
+
+    <!-- Contactless Payment Waves (NFC) -->
+    <g transform="translate(58, 6)" stroke="#0D9488" stroke-width="1.8" stroke-linecap="round" fill="none" opacity="0.85">
+      <path d="M 0 6 A 8 8 0 0 1 0 16" />
+      <path d="M 5 3 A 14 14 0 0 1 5 19" />
+      <path d="M 10 0 A 20 20 0 0 1 10 22" />
+    </g>
+  </g>
+
+  <!-- Top Right Branding -->
+  <text x="696" y="68" text-anchor="end" class="font-mono-lt card-tier-lt">AI × FINTECH</text>
+  <text x="696" y="82" text-anchor="end" class="font-mono-lt card-sub-tier-lt">INSTITUTIONAL TIER</text>
+
+  <!-- 2. MIDDLE ROW: NAME, ACADEMIC DEGREE & FOCUS -->
+  <g transform="translate(204, 150)">
+    <!-- Embossed Name -->
+    <text x="0" y="0" class="font-sans-lt card-holder-lt">RISHABH RAJ</text>
+
+    <!-- Degree & Institution -->
+    <text x="0" y="24" class="font-mono-lt card-academic-lt">B.TECH + MBA (CSBS) · PONDICHERRY UNIVERSITY</text>
+
+    <!-- Domain Focus -->
+    <text x="0" y="44" class="font-mono-lt card-focus-lt">◈ AI FRAUD ANALYTICS · DIGITAL BANKING · BEHAVIORAL BIOMETRICS</text>
+  </g>
+
+  <!-- Horizontal Card Hairline -->
+  <line x1="204" y1="230" x2="696" y2="230" stroke="#CBD5E1" stroke-width="1.2" />
+
+  <!-- 3. BOTTOM ROW: VERIFIED RIGOR STATS -->
+  <g transform="translate(204, 252)">
+    <!-- Stat 1: SGPA -->
+    <g transform="translate(0, 0)">
+      <text x="0" y="0" class="font-mono-lt metric-label-lt">ACADEMIC CGPA / SGPA</text>
+      <text x="0" y="19" class="font-sans-lt metric-primary-lt" fill="#0D9488">9.25 / 10</text>
+      <text x="0" y="33" class="font-sans-lt metric-sub-lt">Sem 1: 9.23 · Sem 2: 9.25</text>
+    </g>
+
+    <!-- Subtle vertical divider 1 -->
+    <line x1="160" y1="-4" x2="160" y2="38" stroke="#CBD5E1" stroke-width="1" />
+
+    <!-- Stat 2: Math -->
+    <g transform="translate(180, 0)">
+      <text x="0" y="0" class="font-mono-lt metric-label-lt">QUANTITATIVE FOUNDATION</text>
+      <text x="0" y="19" class="font-sans-lt metric-primary-lt" fill="#D97706">100 / 100</text>
+      <text x="0" y="33" class="font-sans-lt metric-sub-lt">Intermediate Mathematics</text>
+    </g>
+
+    <!-- Subtle vertical divider 2 -->
+    <line x1="335" y1="-4" x2="335" y2="38" stroke="#CBD5E1" stroke-width="1" />
+
+    <!-- Stat 3: JEE Advanced -->
+    <g transform="translate(355, 0)">
+      <text x="0" y="0" class="font-mono-lt metric-label-lt">NATIONAL COMPETITION</text>
+      <text x="0" y="19" class="font-sans-lt metric-primary-lt" fill="#0284C7">JEE ADVANCED</text>
+      <text x="0" y="33" class="font-sans-lt metric-sub-lt">Qualified 2X (2024 &amp; 2025)</text>
+    </g>
+  </g>
+</svg>

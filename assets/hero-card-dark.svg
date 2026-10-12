@@ -1,0 +1,208 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" width="100%" height="100%">
+  <defs>
+    <!-- Background Canvas Gradient -->
+    <linearGradient id="bgGradDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050811" />
+      <stop offset="50%" stop-color="#080F1D" />
+      <stop offset="100%" stop-color="#04070F" />
+    </linearGradient>
+
+    <!-- Ambient Glow Filters -->
+    <radialGradient id="tealAura" cx="30%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#2DD4BF" stop-opacity="0.22" />
+      <stop offset="100%" stop-color="#2DD4BF" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="goldAura" cx="70%" cy="70%" r="50%">
+      <stop offset="0%" stop-color="#F59E0B" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#F59E0B" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="blueAura" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#0284C7" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#0284C7" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Card Body Frosted Glass Gradient -->
+    <linearGradient id="cardGlassDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F1F35" stop-opacity="0.92" />
+      <stop offset="45%" stop-color="#0A1526" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#060C17" stop-opacity="0.98" />
+    </linearGradient>
+
+    <!-- Shimmering Edge Gradient -->
+    <linearGradient id="borderShimmer" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2DD4BF">
+        <animate attributeName="stop-color" values="#2DD4BF;#0284C7;#F59E0B;#2DD4BF" dur="7s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="40%" stop-color="#0284C7">
+        <animate attributeName="stop-color" values="#0284C7;#F59E0B;#2DD4BF;#0284C7" dur="7s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="80%" stop-color="#F59E0B">
+        <animate attributeName="stop-color" values="#F59E0B;#2DD4BF;#0284C7;#F59E0B" dur="7s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#2DD4BF">
+        <animate attributeName="stop-color" values="#2DD4BF;#0284C7;#F59E0B;#2DD4BF" dur="7s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <!-- Holographic Chip Gradient -->
+    <linearGradient id="chipGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE68A" />
+      <stop offset="50%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#B45309" />
+    </linearGradient>
+
+    <!-- Name Emboss Gradient -->
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="40%" stop-color="#38BDF8" />
+      <stop offset="75%" stop-color="#2DD4BF" />
+      <stop offset="100%" stop-color="#FCD34D" />
+    </linearGradient>
+
+    <!-- Shimmer Sweep Line Gradient -->
+    <linearGradient id="shimmerBeam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0" />
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.16" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Card Clip Path for Sheen Effect -->
+    <clipPath id="cardClip">
+      <rect x="170" y="25" width="560" height="310" rx="20" />
+    </clipPath>
+
+    <!-- Drop Shadow Filter -->
+    <filter id="cardShadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#000000" flood-opacity="0.7" />
+      <feDropShadow dx="0" dy="2" stdDeviation="6" flood-color="#2DD4BF" flood-opacity="0.2" />
+    </filter>
+  </defs>
+
+  <style>
+    .font-mono { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Courier New', monospace; }
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; }
+    
+    .card-tier { font-size: 11px; font-weight: 800; fill: #2DD4BF; letter-spacing: 2px; }
+    .card-sub-tier { font-size: 9px; font-weight: 700; fill: #64748B; letter-spacing: 1px; }
+    .card-holder { font-size: 26px; font-weight: 900; letter-spacing: 2px; fill: url(#nameGrad); }
+    .card-academic { font-size: 11px; font-weight: 700; fill: #E2E8F0; letter-spacing: 0.8px; }
+    .card-focus { font-size: 10px; font-weight: 700; fill: #38BDF8; letter-spacing: 0.6px; }
+    
+    .metric-label { font-size: 8.5px; font-weight: 800; fill: #64748B; letter-spacing: 1px; }
+    .metric-primary { font-size: 15px; font-weight: 900; }
+    .metric-sub { font-size: 8.5px; font-weight: 600; fill: #94A3B8; letter-spacing: 0.3px; }
+  </style>
+
+  <!-- Canvas Background -->
+  <rect width="900" height="360" rx="16" fill="url(#bgGradDark)" />
+
+  <!-- Ambient Light Auras -->
+  <circle cx="280" cy="110" r="240" fill="url(#tealAura)" />
+  <circle cx="620" cy="250" r="220" fill="url(#goldAura)" />
+  <circle cx="450" cy="180" r="280" fill="url(#blueAura)" />
+
+  <!-- Subtle Cyber-FinTech Circuit Grid (Background) -->
+  <g stroke="#1E293B" stroke-width="0.8" opacity="0.4" stroke-dasharray="4 6">
+    <line x1="60" y1="90" x2="840" y2="90" />
+    <line x1="60" y1="180" x2="840" y2="180" />
+    <line x1="60" y1="270" x2="840" y2="270" />
+    <line x1="220" y1="20" x2="220" y2="340" />
+    <line x1="450" y1="20" x2="450" y2="340" />
+    <line x1="680" y1="20" x2="680" y2="340" />
+  </g>
+
+  <!-- Outer Glow Ring behind Card -->
+  <rect x="168" y="23" width="564" height="314" rx="22" fill="none" stroke="url(#borderShimmer)" stroke-width="2" opacity="0.65" filter="url(#cardShadow)" />
+
+  <!-- THE GLASSMORPHIC CREDIT CARD -->
+  <g clip-path="url(#cardClip)">
+    <!-- Base Glass Surface -->
+    <rect x="170" y="25" width="560" height="310" rx="20" fill="url(#cardGlassDark)" />
+
+    <!-- Watermark: Interlocking AI & FinTech Dual Rings (Center-Right) -->
+    <g transform="translate(565, 175)" opacity="0.18">
+      <circle cx="-25" cy="0" r="60" fill="none" stroke="#2DD4BF" stroke-width="8" />
+      <circle cx="25" cy="0" r="60" fill="none" stroke="#F59E0B" stroke-width="8" />
+      <path d="M 0 -45 A 60 60 0 0 1 0 45 A 60 60 0 0 1 0 -45 Z" fill="#38BDF8" opacity="0.3" />
+    </g>
+
+    <!-- Fine Geometric Neural Watermark Lines -->
+    <path d="M 170 120 Q 340 70 510 140 T 730 110" fill="none" stroke="#2DD4BF" stroke-width="0.8" opacity="0.15" />
+    <path d="M 170 200 Q 360 230 520 180 T 730 220" fill="none" stroke="#F59E0B" stroke-width="0.8" opacity="0.15" />
+
+    <!-- Shimmer Light Sweep Animation across Card -->
+    <rect x="-150" y="0" width="120" height="360" fill="url(#shimmerBeam)" transform="skewX(-28)">
+      <animate attributeName="x" values="-250; 1100; -250" dur="8s" repeatCount="indefinite" />
+    </rect>
+  </g>
+
+  <!-- Card Border Stroke (Crisp overlay) -->
+  <rect x="170" y="25" width="560" height="310" rx="20" fill="none" stroke="url(#borderShimmer)" stroke-width="1.8" />
+
+  <!-- ================= CARD FACE ELEMENTS ================= -->
+
+  <!-- 1. TOP ROW: CHIP, CONTACTLESS & BRANDING -->
+  <g transform="translate(204, 52)">
+    <!-- EMV Gold Smart Chip -->
+    <rect x="0" y="0" width="46" height="34" rx="6" fill="url(#chipGrad)" stroke="#78350F" stroke-width="1" />
+    <!-- Chip Contact Engravings -->
+    <path d="M 0 17 L 16 17 M 30 17 L 46 17 M 16 0 L 16 34 M 30 0 L 30 34 M 16 11 L 30 11 M 16 23 L 30 23" stroke="#78350F" stroke-width="1" fill="none" opacity="0.85" />
+    <rect x="18" y="13" width="10" height="8" rx="2" fill="#FDE68A" opacity="0.6" />
+
+    <!-- Contactless Payment Waves (NFC) -->
+    <g transform="translate(58, 6)" stroke="#2DD4BF" stroke-width="1.8" stroke-linecap="round" fill="none" opacity="0.85">
+      <path d="M 0 6 A 8 8 0 0 1 0 16" />
+      <path d="M 5 3 A 14 14 0 0 1 5 19" />
+      <path d="M 10 0 A 20 20 0 0 1 10 22" />
+    </g>
+  </g>
+
+  <!-- Top Right Branding -->
+  <text x="696" y="68" text-anchor="end" class="font-mono card-tier">AI × FINTECH</text>
+  <text x="696" y="82" text-anchor="end" class="font-mono card-sub-tier">INSTITUTIONAL TIER</text>
+
+  <!-- 2. MIDDLE ROW: NAME, ACADEMIC DEGREE & FOCUS -->
+  <g transform="translate(204, 150)">
+    <!-- Embossed Name -->
+    <text x="0" y="0" class="font-sans card-holder">RISHABH RAJ</text>
+
+    <!-- Degree & Institution -->
+    <text x="0" y="24" class="font-mono card-academic">B.TECH + MBA (CSBS) · PONDICHERRY UNIVERSITY</text>
+
+    <!-- Domain Focus -->
+    <text x="0" y="44" class="font-mono card-focus">◈ AI FRAUD ANALYTICS · DIGITAL BANKING · BEHAVIORAL BIOMETRICS</text>
+  </g>
+
+  <!-- Horizontal Card Hairline -->
+  <line x1="204" y1="230" x2="696" y2="230" stroke="#1E293B" stroke-width="1.2" />
+
+  <!-- 3. BOTTOM ROW: VERIFIED RIGOR STATS (NO INVENTED NUMBERS) -->
+  <g transform="translate(204, 252)">
+    <!-- Stat 1: SGPA -->
+    <g transform="translate(0, 0)">
+      <text x="0" y="0" class="font-mono metric-label">ACADEMIC CGPA / SGPA</text>
+      <text x="0" y="19" class="font-sans metric-primary" fill="#2DD4BF">9.25 / 10</text>
+      <text x="0" y="33" class="font-sans metric-sub">Sem 1: 9.23 · Sem 2: 9.25</text>
+    </g>
+
+    <!-- Subtle vertical divider 1 -->
+    <line x1="160" y1="-4" x2="160" y2="38" stroke="#1E293B" stroke-width="1" />
+
+    <!-- Stat 2: Math -->
+    <g transform="translate(180, 0)">
+      <text x="0" y="0" class="font-mono metric-label">QUANTITATIVE FOUNDATION</text>
+      <text x="0" y="19" class="font-sans metric-primary" fill="#FCD34D">100 / 100</text>
+      <text x="0" y="33" class="font-sans metric-sub">Intermediate Mathematics</text>
+    </g>
+
+    <!-- Subtle vertical divider 2 -->
+    <line x1="335" y1="-4" x2="335" y2="38" stroke="#1E293B" stroke-width="1" />
+
+    <!-- Stat 3: JEE Advanced -->
+    <g transform="translate(355, 0)">
+      <text x="0" y="0" class="font-mono metric-label">NATIONAL COMPETITION</text>
+      <text x="0" y="19" class="font-sans metric-primary" fill="#38BDF8">JEE ADVANCED</text>
+      <text x="0" y="33" class="font-sans metric-sub">Qualified 2X (2024 &amp; 2025)</text>
+    </g>
+  </g>
+</svg>

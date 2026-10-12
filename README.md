@@ -1,246 +1,406 @@
-<!-- Place this file in a repo named exactly like your GitHub username: rajrishabh23959-oss/rajrishabh23959-oss -->
-
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=230&section=header&text=Rishabh%20Raj&fontSize=64&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20%C2%B7%20FinTech%20%C2%B7%20Software%20Engineering%20%C2%B7%20Business%20Systems&descSize=18&descAlignY=60" alt="Rishabh Raj header" width="100%"/>
-
-<a href="https://github.com/rajrishabh23959-oss">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=900&color=2DD4BF&center=true&vCenter=true&width=720&lines=Hey%2C+I'm+Rishabh+Raj+%F0%9F%91%8B;B.Tech+%2B+MBA+%7C+Computer+Science+%26+Business+Systems;Building+AI-driven+fraud+prevention+for+digital+banking;Where+code+meets+finance+%F0%9F%92%B3;Open+to+AI+%2F+FinTech+Analyst+internships+%F0%9F%9A%80" alt="Typing animation" />
-</a>
-
-<br/>
-
-<a href="https://rajrishabh23959-oss.github.io/rishabh_portfolio/"><img src="https://img.shields.io/badge/Portfolio-Visit-2DD4BF?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/></a>
-<a href="https://linkedin.com/in/rishabh-raj-804755382"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-<a href="mailto:rajrishabh23959@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20Hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-<a href="https://github.com/rajrishabh23959-oss"><img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+<!-- HERO BANNER: Institutional FinTech Terminal -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/hero-banner-light.svg">
+  <img alt="Rishabh Raj — AI &amp; FinTech Terminal" src="assets/hero-banner-dark.svg" width="100%">
+</picture>
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=rajrishabh23959-oss&label=Profile%20Views&color=2c5364&style=flat-square" alt="Profile views"/>
+<!-- ANIMATED TYPING TELEMETRY -->
+<a href="https://github.com/rajrishabh23959-oss">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=18&amp;duration=2800&amp;pause=900&amp;color=2DD4BF&amp;center=true&amp;vCenter=true&amp;width=780&amp;lines=%E2%88%98+B.Tech+%2B+MBA+in+Computer+Science+%26+Business+Systems;%E2%88%98+Specializing+in+AI%2C+FinTech%2C+Digital+Banking+%26+Fraud+Analytics;%E2%88%98+Architecting+SENTINAI+(Biometrics)+%26+RenoPay+(UPI+Rails);%E2%88%98+Open+to+AI+%2F+FinTech+Analyst+Internship+Opportunities" alt="Typing Telemetry">
+</a>
+
+<br/><br/>
+
+<!-- ACTION RAIL / COMMAND BUTTONS -->
+<a href="https://rajrishabh23959-oss.github.io/rishabh_portfolio/"><img src="https://img.shields.io/badge/LIVE%20PORTFOLIO-0D9488?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=white" alt="Live Portfolio"></a>
+<a href="https://linkedin.com/in/rishabh-raj-804755382"><img src="https://img.shields.io/badge/LINKEDIN%20NETWORK-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn"></a>
+<a href="mailto:rajrishabh23959@gmail.com"><img src="https://img.shields.io/badge/DIRECT%20DISPATCH-EA4335?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email"></a>
+<a href="https://github.com/rajrishabh23959-oss"><img src="https://img.shields.io/badge/GITHUB%20CORE-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub"></a>
+<img src="https://komarev.com/ghpvc/?username=rajrishabh23959-oss&amp;label=SYSTEM%20AUDITS&amp;color=0d9488&amp;style=for-the-badge" alt="Profile Audits">
+
+<br/><br/>
+
+<!-- TERMINAL QUICK-NAV -->
+<code><a href="#-executive-summary">DOSSIER</a></code> &nbsp;·&nbsp;
+<code><a href="#-system-telemetry">TELEMETRY</a></code> &nbsp;·&nbsp;
+<code><a href="#-flagship-deployments">FLAGSHIP RAILS</a></code> &nbsp;·&nbsp;
+<code><a href="#-capabilities-matrix">CAPABILITIES</a></code> &nbsp;·&nbsp;
+<code><a href="#-quantitative-rigor--benchmarks">BENCHMARKS</a></code> &nbsp;·&nbsp;
+<code><a href="#-analytics--activity-ledger">ACTIVITY</a></code> &nbsp;·&nbsp;
+<code><a href="#-direct-inquiry--dispatch">CONNECT</a></code>
+
+<br/><br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/divider-light.svg">
+  <img alt="Divider" src="assets/divider-dark.svg" width="100%">
+</picture>
 
 </div>
 
-<br/>
-
-<div align="center">
-
-[**About**](#-about-me) · [**Skills**](#-tech-stack--skills) · [**Projects**](#-featured-projects) · [**Education**](#-education) · [**Milestones**](#-milestones) · [**Stats**](#-github-stats) · [**Connect**](#-lets-connect)
-
-</div>
-
----
-
-## 👨‍💻 About Me
-
-I'm an **integrated B.Tech + MBA student in Computer Science & Business Systems at Pondicherry University (2025–2030)**. I like building where **software engineering meets business thinking**, turning ideas in **AI, financial technology, digital banking and fraud analytics** into working products.
-
-```python
-class Rishabh:
-    def __init__(self):
-        self.role      = "AI & FinTech Analyst (in the making)"
-        self.studying  = "B.Tech + MBA, CSBS @ Pondicherry University"
-        self.focus     = ["AI-driven fraud prevention", "Digital banking", "Financial systems"]
-        self.building  = ["RenoPay", "SENTINAI", "EklavyaX"]
-        self.learning  = ["Node.js", "PyTorch", "Deeper ML"]
-        self.looking_for = "AI / FinTech Analyst internship"
-
-    def say_hi(self):
-        return "Curious about systems. Excited by ideas that connect code with real-world impact."
-```
-
-- 🤖 Passionate about **AI-driven fraud prevention** and smarter financial systems
-- 🐍 Building with **Python**, with a strong base in C/C++, Java, SQL and DBMS
-- 📚 Solid foundation in **mathematics, accounting fundamentals and business systems**
-- 🎯 Looking to grow through hands-on **AI/FinTech projects and internships**
-
----
-
-## 🛠 Tech Stack & Skills
-
-### 💻 Programming Languages
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" alt="C"/>
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++"/>
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL"/>
-  <img src="https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white" alt="MATLAB"/>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js (learning)"/>
-</p>
-
-### 🧠 Data Science, AI & Libraries
-<p>
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"/>
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/>
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch"/>
-  <img src="https://img.shields.io/badge/Pygame-2E8B57?style=for-the-badge&logo=python&logoColor=white" alt="Pygame"/>
-</p>
-
-### 🗄 Databases, Finance & Business Tools
-<p>
-  <img src="https://img.shields.io/badge/DBMS-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="DBMS"/>
-  <img src="https://img.shields.io/badge/Tally-Accounting%20Software-0E7C66?style=for-the-badge" alt="Tally Accounting Software"/>
-  <img src="https://img.shields.io/badge/Journal%20%26%20Ledger-Accounting-B8860B?style=for-the-badge" alt="Journal and Ledger"/>
-  <img src="https://img.shields.io/badge/MS%20PowerPoint-B7472A?style=for-the-badge&logo=microsoftpowerpoint&logoColor=white" alt="MS PowerPoint"/>
-  <img src="https://img.shields.io/badge/MS%20Word-2B579A?style=for-the-badge&logo=microsoftword&logoColor=white" alt="MS Word"/>
-</p>
-
-### ⚙️ Dev Tools & Platforms
-<p>
-  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code"/>
-  <img src="https://img.shields.io/badge/Antigravity-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Antigravity"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
-  <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" alt="Nginx"/>
-  <img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black" alt="Render"/>
-</p>
-
-### 🎯 Core Competencies
-
-| 🔐 Security & Analytics | 💰 Finance & Business | 🧮 Mathematics |
-| :--- | :--- | :--- |
-| Behavioral Biometrics | Financial Accounting (Journal & Ledger) | Linear Algebra |
-| Fraud Analytics | Digital Financial Transformation | Engineering Mathematics |
-| AI-driven Fraud Mitigation | Business Communication | Problem Solving |
-
----
-
-## 🚀 Featured Projects
+## 🏛 Executive Summary
 
 <table>
   <tr>
-    <td width="50%" valign="top">
-
-### 💳 RenoPay
-**Full-stack UPI payments app**, built end to end.
-
-Real-time transfers · UPI Lite · **SentinAI** fraud detection · shared vaults · savings goals · AI-powered bookkeeping with **double-entry ledger** logic.
-
-**Deployed live** with Docker + Nginx on Render.
-
-`Python` `FastAPI` `Docker` `Nginx` `Render`
-
+    <td width="60%" valign="top">
+      <h3>◈ PROFILE DOSSIER</h3>
+      <p>I am an integrated <b>B.Tech + MBA candidate in Computer Science &amp; Business Systems at Pondicherry University (2025–2030)</b>. My engineering focus centers at the high-stakes intersection of <b>AI-driven fraud mitigation, digital banking architecture, behavioral biometrics, and intelligent ledgers</b>.</p>
+      <p>By coupling rigorous mathematical foundations with institutional accounting principles, I build payment systems and security rails that are mathematically deterministic and production resilient.</p>
+      <p>🎯 <b>Primary Objective:</b> Actively seeking an <b>AI / FinTech Analyst Internship</b> to engineer high-throughput fraud analytics, quantitative models, and next-generation transaction infrastructure.</p>
     </td>
-    <td width="50%" valign="top">
-
-### 🛡 SENTINAI
-**Behavioral biometrics for digital banking security.**
-
-A keystroke-dynamics framework that **continuously verifies identity from typing behavior**, tackling the fraud risk of password-only authentication.
-
-🎤 Presented to a judged panel at an ideathon.
-
-`Python` `Biometrics` `Fraud Analytics`
-
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-
-### 🏦 InnovateX
-**AI-powered financial transformation for next-gen banking.**
-
-A strategy framework that modernizes legacy banking by joining **accounting logic (journal & ledger)** with automated workflows, bridging system design and business fundamentals.
-
-`AI` `FinTech` `Accounting`
-
-    </td>
-    <td width="50%" valign="top">
-
-### 🎮 Treasure Hunter
-**2D game engineering in Python & Pygame.**
-
-Built from the ground up with **custom collision detection** and a **multi-state game manager**, sharpening state machines and real-time logic.
-
-`Python` `Pygame`
-
+    <td width="40%" valign="top">
+      <h3>◈ LEDGER SNAPSHOT</h3>
+      <ul>
+        <li><b>Institution:</b> Pondicherry University</li>
+        <li><b>Discipline:</b> CSBS (Dual Engineering + MBA)</li>
+        <li><b>Timeline:</b> 2025 – 2030</li>
+        <li><b>Academic Index:</b> SGPA 9.23 (S1) · 9.25 (S2)</li>
+        <li><b>Quantitative:</b> 100/100 Math · JEE Adv (2X)</li>
+        <li><b>Core Focus:</b> AI Fraud Analytics &amp; UPI Rails</li>
+        <li><b>Deployment Status:</b> 🟢 Available for Internship</li>
+      </ul>
     </td>
   </tr>
 </table>
 
-#### 🌱 More Projects
-
-| Project | Idea |
-| :--- | :--- |
-| 🩺 **NemEdico** | Healthcare platform concept linking patients, doctors and medical stores |
-| ✅ **Habit Tracker** | Productivity app for building consistent daily habits |
-| 🎓 **EklavyaX** | Gamified learning platform for interactive, engaging education |
-| 👴 **MAHAN** | Connects experienced and retired professionals with relevant work opportunities |
-
-> 🔗 Explore everything in detail on my **[Portfolio](https://rajrishabh23959-oss.github.io/rishabh_portfolio/)**.
-
----
-
-## 🎓 Education
-
-| | |
-| :--- | :--- |
-| 🏛 **Pondicherry University** | **B.Tech + MBA, Computer Science & Business Systems** (2025–2030) |
-| 📈 Academics | Semester 1 SGPA **9.23** · Semester 2 SGPA **9.25** / 10 |
-| ➗ Highlights | Mathematics **100/100** · Linear Algebra **99/100** · Engineering Mathematics **95/100** · Basic Electronics **90/100** |
-| 🏅 Entrance | **JEE Advanced qualifier, 2 times (2024 & 2025)** |
-
----
-
-## 🏆 Milestones
-
-- 🥇 Qualified **JEE Advanced twice** (2024 and 2025)
-- ➗ Scored a perfect **100/100 in Intermediate Mathematics**
-- 🎤 **Ideathon presenter:** pitched SENTINAI's fraud-mitigation framework to a judged panel
-- 🌐 Participated in **Pragyan, NIT Trichy**, one of India's leading student-run technical festivals
-- 📜 Completed multiple **Government of India digital & financial literacy** quizzes
-
----
-
-## 📊 GitHub Stats
-
 <div align="center">
-
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=rajrishabh23959-oss&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub stats"/>
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rajrishabh23959-oss&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages"/>
-
-<br/>
-
-<img src="https://streak-stats.demolab.com?user=rajrishabh23959-oss&theme=tokyonight&hide_border=true" alt="GitHub streak"/>
-
-<br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=rajrishabh23959-oss&theme=tokyonight&no-frame=true&row=1&column=6" alt="Trophies"/>
-
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/divider-light.svg">
+  <img alt="Divider" src="assets/divider-dark.svg" width="100%">
+</picture>
 </div>
 
----
+## ⚡ System Telemetry
 
-## 🔭 Currently Exploring
+<!-- Animated FinTech Metrics & Telemetry Card -->
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/fintech-metrics-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/fintech-metrics-light.svg">
+  <img alt="FinTech Operational Telemetry" src="assets/fintech-metrics-dark.svg" width="100%">
+</picture>
+</div>
 
-`Behavioral Biometrics` · `Fraud Analytics` · `FinTech` · `Digital Banking` · `Financial Transformation` · `Double-Entry Bookkeeping` · `PyTorch` · `Node.js`
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/divider-light.svg">
+  <img alt="Divider" src="assets/divider-dark.svg" width="100%">
+</picture>
+</div>
 
----
+## 💳 Flagship Deployments
 
-## 🗣 Languages
+<!-- 2x2 Grid of Designed Project Cards -->
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>💳 RenoPay</h3>
+      <p><b>Next-Gen Full-Stack UPI Payments &amp; AI Bookkeeping Engine</b></p>
+      <p>An enterprise-grade payments platform architected end-to-end. Features instant UPI transfers, low-friction <b>UPI Lite</b> offline rails, collaborative multi-user shared vaults, and automated bookkeeping powered by <b>formal double-entry ledger logic</b>.</p>
+      <p>Integrated with the <b>SentinAI</b> fraud detection suite to intercept suspicious transfer velocity in real time.</p>
+      <p><b>Production Infrastructure:</b> Containerized with Docker, reverse-proxied via Nginx, and deployed live on Render.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python"/>
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&amp;logo=fastapi&amp;logoColor=white" alt="FastAPI"/>
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&amp;logo=docker&amp;logoColor=white" alt="Docker"/>
+        <img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&amp;logo=nginx&amp;logoColor=white" alt="Nginx"/>
+        <img src="https://img.shields.io/badge/Render-Live-46E3B7?style=flat-square&amp;logo=render&amp;logoColor=black" alt="Render"/>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🛡 SENTINAI</h3>
+      <p><b>Keystroke-Dynamics Behavioral Biometrics for Banking Security</b></p>
+      <p>An advanced biometric risk-scoring pipeline designed to solve account-takeover (ATO) and credential stuffing fraud. Employs <b>keystroke flight-time and dwell-time dynamics</b> to continuously verify user identity behind transaction authorizations.</p>
+      <p>Operates entirely non-intrusively without relying on static SMS OTPs or passwords alone.</p>
+      <p>🎤 <b>Milestone:</b> Selected, pitched, and defended before an expert evaluation panel at a national-level Ideathon.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python"/>
+        <img src="https://img.shields.io/badge/Behavioral%20Biometrics-0284C7?style=flat-square" alt="Biometrics"/>
+        <img src="https://img.shields.io/badge/Fraud%20Analytics-2DD4BF?style=flat-square" alt="Fraud Analytics"/>
+        <img src="https://img.shields.io/badge/Zero--Trust-F59E0B?style=flat-square" alt="Zero-Trust"/>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🏦 InnovateX</h3>
+      <p><b>AI-Powered Financial Modernization &amp; Banking Transformation</b></p>
+      <p>A strategic modernization blueprint bridging legacy financial systems with autonomous intelligence. Synthesizes core financial accounting principles (<b>Journal &amp; Ledger double-entry reconciliation</b>) with predictive AI pipeline orchestration.</p>
+      <p>Designed to accelerate audit velocity, prevent ledger drift, and bring real-time compliance transparency to core banking operations.</p>
+      <p>
+        <img src="https://img.shields.io/badge/AI%20Strategy-0284C7?style=flat-square" alt="AI Strategy"/>
+        <img src="https://img.shields.io/badge/FinTech%20Systems-2DD4BF?style=flat-square" alt="FinTech"/>
+        <img src="https://img.shields.io/badge/Journal%20%26%20Ledger-B8860B?style=flat-square" alt="Journal &amp; Ledger"/>
+        <img src="https://img.shields.io/badge/Tally%20Framework-0E7C66?style=flat-square" alt="Tally"/>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🎮 Treasure Hunter</h3>
+      <p><b>2D Arcade State Engine &amp; Real-Time Game Mechanics</b></p>
+      <p>An interactive 2D arcade title written from scratch in Python and Pygame. Engineered with custom bounding-box collision detection algorithms, multi-layered asset rendering loops, and an immutable finite state manager handling game loop transitions.</p>
+      <p>Served as a hands-on proving ground for low-latency state synchronization, deterministic logic, and real-time execution.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python"/>
+        <img src="https://img.shields.io/badge/Pygame-2E8B57?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Pygame"/>
+        <img src="https://img.shields.io/badge/Collision%20Physics-0284C7?style=flat-square" alt="Physics"/>
+        <img src="https://img.shields.io/badge/State%20Machines-7C3AED?style=flat-square" alt="FSM"/>
+      </p>
+    </td>
+  </tr>
+</table>
 
-🇬🇧 English (Professional) · 🇮🇳 Hindi (Native) · 🌴 Tamil (Basic)
+### 📂 Specialized Venture R&amp;D Portfolio
 
----
+| Project | Domain | Architectural Hook |
+| :--- | :--- | :--- |
+| 🩺 **NemEdico** | HealthTech Rails | Integrated digital healthcare ecosystem bridging patient records, clinic consults, and pharmacy supply chains. |
+| 🎯 **Habit Tracker** | Behavioral Analytics | Micro-habit tracking engine structured around streak persistence, behavioral cadence, and productivity loops. |
+| 🎓 **EklavyaX** | EdTech Intelligence | Interactive gamified learning architecture engineered for adaptive curriculum pacing and engagement analytics. |
+| 🤝 **MAHAN** | Talent Network | Socio-economic matching platform mobilizing retired and experienced industry professionals for advisory engagements. |
 
-## 🤝 Let's Connect
+> 🔗 *Dive deep into project repositories, system diagrams, and interactive live demos on my **[Interactive Portfolio](https://rajrishabh23959-oss.github.io/rishabh_portfolio/)**.*
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/divider-light.svg">
+  <img alt="Divider" src="assets/divider-dark.svg" width="100%">
+</picture>
+</div>
+
+## 🛠 Capabilities Matrix
+
+```
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│  CAPABILITIES LEDGER // INTEGRATED CSBS TECHNICAL & BUSINESS CAPITAL STACK             │
+└────────────────────────────────────────────────────────────────────────────────────────┘
+```
+
+#### 🧠 AI, Quantitative Modeling & Data Science
+<p>
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&amp;logo=pytorch&amp;logoColor=white" alt="PyTorch"/>
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&amp;logo=numpy&amp;logoColor=white" alt="NumPy"/>
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&amp;logo=pandas&amp;logoColor=white" alt="Pandas"/>
+  <img src="https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&amp;logo=mathworks&amp;logoColor=white" alt="MATLAB"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&amp;logo=python&amp;logoColor=white" alt="Python"/>
+</p>
+
+#### 💳 FinTech, Ledger Architecture & Business Intelligence
+<p>
+  <img src="https://img.shields.io/badge/Tally-Accounting%20Software-0E7C66?style=for-the-badge" alt="Tally Accounting"/>
+  <img src="https://img.shields.io/badge/Journal%20%26%20Ledger-Accounting%20Principles-B8860B?style=for-the-badge" alt="Journal and Ledger"/>
+  <img src="https://img.shields.io/badge/SQL-003B57?style=for-the-badge&amp;logo=postgresql&amp;logoColor=white" alt="SQL"/>
+  <img src="https://img.shields.io/badge/DBMS-Relational%20Databases-0284C7?style=for-the-badge&amp;logo=databricks&amp;logoColor=white" alt="DBMS"/>
+  <img src="https://img.shields.io/badge/MS%20PowerPoint-B7472A?style=for-the-badge&amp;logo=microsoftpowerpoint&amp;logoColor=white" alt="PowerPoint"/>
+  <img src="https://img.shields.io/badge/MS%20Word-2B579A?style=for-the-badge&amp;logo=microsoftword&amp;logoColor=white" alt="Word"/>
+</p>
+
+#### ⚡ Core Software Engineering & Languages
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&amp;logo=python&amp;logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&amp;logo=cplusplus&amp;logoColor=white" alt="C++"/>
+  <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&amp;logo=c&amp;logoColor=black" alt="C"/>
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&amp;logo=openjdk&amp;logoColor=white" alt="Java"/>
+  <img src="https://img.shields.io/badge/HTML5%20%2F%20CSS3-E34F26?style=for-the-badge&amp;logo=html5&amp;logoColor=white" alt="HTML/CSS"/>
+  <img src="https://img.shields.io/badge/Node.js-Learning-339933?style=for-the-badge&amp;logo=nodedotjs&amp;logoColor=white" alt="Node.js (learning)"/>
+  <img src="https://img.shields.io/badge/Pygame-2E8B57?style=for-the-badge&amp;logo=python&amp;logoColor=white" alt="Pygame"/>
+</p>
+
+#### 🚀 Infrastructure, DevOps & Development Toolchain
+<p>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&amp;logo=docker&amp;logoColor=white" alt="Docker"/>
+  <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&amp;logo=nginx&amp;logoColor=white" alt="Nginx"/>
+  <img src="https://img.shields.io/badge/Render-Cloud%20Deploy-46E3B7?style=for-the-badge&amp;logo=render&amp;logoColor=black" alt="Render"/>
+  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&amp;logo=visualstudiocode&amp;logoColor=white" alt="VS Code"/>
+  <img src="https://img.shields.io/badge/Antigravity-Google%20DeepMind-4285F4?style=for-the-badge&amp;logo=google&amp;logoColor=white" alt="Antigravity"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&amp;logo=git&amp;logoColor=white" alt="Git"/>
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub"/>
+</p>
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/divider-light.svg">
+  <img alt="Divider" src="assets/divider-dark.svg" width="100%">
+</picture>
+</div>
+
+## 🎖 Quantitative Rigor &amp; Benchmarks
+
+<table>
+  <tr>
+    <td width="33%" align="center">
+      <br/>
+      <b>🥇 JEE ADVANCED</b>
+      <br/><br/>
+      <code style="color:#F59E0B;">QUALIFIED TWICE</code>
+      <br/>
+      <b>2024 &amp; 2025</b>
+      <p style="font-size:12px;">Top-tier national percentile among India's competitive engineering aspirants.</p>
+    </td>
+    <td width="33%" align="center">
+      <br/>
+      <b>➗ MATHEMATICS</b>
+      <br/><br/>
+      <code style="color:#2DD4BF;">100 / 100</code>
+      <br/>
+      <b>PERFECT RAW SCORE</b>
+      <p style="font-size:12px;">Flawless performance in Intermediate Mathematics &amp; quantitative foundations.</p>
+    </td>
+    <td width="33%" align="center">
+      <br/>
+      <b>📈 UNIVERSITY ACADEMICS</b>
+      <br/><br/>
+      <code style="color:#38BDF8;">SGPA 9.23 &amp; 9.25</code>
+      <br/>
+      <b>SEMESTERS 1 &amp; 2</b>
+      <p style="font-size:12px;">Consistent academic distinction in CSBS at Pondicherry University.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" align="center">
+      <br/>
+      <b>🎤 SENTINAI PITCH</b>
+      <br/><br/>
+      <code style="color:#10B981;">IDEATHON DEFENSE</code>
+      <br/>
+      <b>EXPERT EVALUATION</b>
+      <p style="font-size:12px;">Presented keystroke behavioral biometrics framework to a judged panel.</p>
+    </td>
+    <td width="33%" align="center">
+      <br/>
+      <b>🌐 PRAGYAN TECH SUMMIT</b>
+      <br/><br/>
+      <code style="color:#A855F7;">NIT TRICHY</code>
+      <br/>
+      <b>ACTIVE PARTICIPANT</b>
+      <p style="font-size:12px;">Engaged in premier technological competitions and workshops.</p>
+    </td>
+    <td width="33%" align="center">
+      <br/>
+      <b>📜 NATIONAL LITERACY</b>
+      <br/><br/>
+      <code style="color:#F59E0B;">GOVT OF INDIA</code>
+      <br/>
+      <b>DIGITAL &amp; FINANCIAL</b>
+      <p style="font-size:12px;">Recognized across digital and financial literacy initiatives.</p>
+    </td>
+  </tr>
+</table>
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/divider-light.svg">
+  <img alt="Divider" src="assets/divider-dark.svg" width="100%">
+</picture>
+</div>
+
+## 📡 Live Pipeline: Currently Building &amp; Exploring
+
+<table>
+  <tr>
+    <td width="50%">
+      <h4>🔨 CURRENTLY ARCHITECTING</h4>
+      <ul>
+        <li><b>RenoPay Optimization:</b> Hardening UPI Lite offline fallback states &amp; stress-testing automated double-entry ledger balancing.</li>
+        <li><b>SENTINAI Keystroke Calibration:</b> Enhancing timing anomaly detectors to reduce false-positive authentication rejects.</li>
+      </ul>
+    </td>
+    <td width="50%">
+      <h4>📖 ACTIVE KNOWLEDGE INGESTION</h4>
+      <ul>
+        <li><b>Node.js:</b> Expanding backend event-driven architectures and concurrent I/O throughput.</li>
+        <li><b>PyTorch &amp; Deep Learning:</b> Exploring non-linear neural networks for transactional behavioral anomaly detection.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/divider-light.svg">
+  <img alt="Divider" src="assets/divider-dark.svg" width="100%">
+</picture>
+</div>
+
+## 📊 Analytics &amp; Activity Ledger
 
 <div align="center">
 
-I'm actively looking for an **AI / FinTech Analyst internship**. If you're building something interesting in finance, AI or banking tech, let's talk.
-
-<a href="https://rajrishabh23959-oss.github.io/rishabh_portfolio/"><img src="https://img.shields.io/badge/🌐%20Portfolio-2DD4BF?style=for-the-badge" alt="Portfolio"/></a>
-<a href="https://linkedin.com/in/rishabh-raj-804755382"><img src="https://img.shields.io/badge/💼%20LinkedIn-0A66C2?style=for-the-badge" alt="LinkedIn"/></a>
-<a href="mailto:rajrishabh23959@gmail.com"><img src="https://img.shields.io/badge/📧%20Email-EA4335?style=for-the-badge" alt="Email"/></a>
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=rajrishabh23959-oss&amp;show_icons=true&amp;theme=tokyonight&amp;border_color=2DD4BF&amp;bg_color=090E1A&amp;title_color=2DD4BF&amp;text_color=E2E8F0&amp;icon_color=F59E0B&amp;count_private=true" alt="GitHub Analytics" />
+&nbsp;
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rajrishabh23959-oss&amp;layout=compact&amp;theme=tokyonight&amp;border_color=2DD4BF&amp;bg_color=090E1A&amp;title_color=2DD4BF&amp;text_color=E2E8F0&amp;icon_color=F59E0B" alt="Top Languages" />
 
 <br/><br/>
 
-*"Curious about systems. Excited by ideas that connect code with real-world impact."*
+<img src="https://streak-stats.demolab.com?user=rajrishabh23959-oss&amp;theme=dark&amp;background=090E1A&amp;border=1E293B&amp;stroke=2DD4BF&amp;ring=F59E0B&amp;fire=F59E0B&amp;currStreakLabel=2DD4BF" alt="Contribution Streak" />
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=120&section=footer" alt="Footer" width="100%"/>
+<br/><br/>
+
+<!-- SNAKE CONTRIBUTION ANIMATION -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rajrishabh23959-oss/rajrishabh23959-oss/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rajrishabh23959-oss/rajrishabh23959-oss/output/github-contribution-grid-snake.svg">
+  <img alt="Activity Snake" src="assets/snake-placeholder.svg" width="100%">
+</picture>
+
+<br/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=rajrishabh23959-oss&amp;theme=flat&amp;no-frame=true&amp;row=1&amp;column=6&amp;margin_w=10" alt="GitHub Trophies" />
+
+</div>
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/divider-light.svg">
+  <img alt="Divider" src="assets/divider-dark.svg" width="100%">
+</picture>
+</div>
+
+## 💡 System Insights &amp; Delights
+
+> 💡 **Computational Principle:** *"Double-entry bookkeeping and distributed systems share the exact same mathematical soul: every state mutation must balance across the ledger with zero tolerance for drift."*
+
+> 🎙 **Guiding Thesis:** *"Curious about systems. Excited by ideas that connect code with real-world impact."*
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/divider-light.svg">
+  <img alt="Divider" src="assets/divider-dark.svg" width="100%">
+</picture>
+</div>
+
+## 🤝 Direct Inquiry &amp; Dispatch
+
+<div align="center">
+
+<h3>◈ PIPELINE STATUS: OPEN FOR AI / FINTECH ANALYST INTERNSHIPS</h3>
+<p>
+If you are engineering next-generation transaction rails, quantitative risk models, behavioral security, or AI-driven banking infrastructure, let's connect.
+</p>
+
+<br/>
+
+<a href="https://rajrishabh23959-oss.github.io/rishabh_portfolio/"><img src="https://img.shields.io/badge/🌐%20INTERACTIVE%20PORTFOLIO-0D9488?style=for-the-badge" alt="Portfolio"/></a>
+&nbsp;&nbsp;
+<a href="https://linkedin.com/in/rishabh-raj-804755382"><img src="https://img.shields.io/badge/💼%20CONNECT%20ON%20LINKEDIN-0A66C2?style=for-the-badge" alt="LinkedIn"/></a>
+&nbsp;&nbsp;
+<a href="mailto:rajrishabh23959@gmail.com"><img src="https://img.shields.io/badge/📧%20TRANSMIT%20EMAIL-EA4335?style=for-the-badge" alt="Email"/></a>
+
+<br/><br/>
+
+<sub>© 2026 Rishabh Raj · B.Tech + MBA in Computer Science &amp; Business Systems · Pondicherry University</sub>
 
 </div>
